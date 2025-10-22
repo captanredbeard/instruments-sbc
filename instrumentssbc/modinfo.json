@@ -1,0 +1,16 @@
+{
+  "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+  "type": "Code",
+  "modid": "instrumentssbc",
+  "name": "Instruments : Starbound Complete",
+  "authors": [
+    "Captanredbeard",
+    "Beeblebrox"
+  ],
+  "description": "Fills out the instrument set of the Instruments mod and adds a special new instrument backpack",
+  "version": "0.2.0",
+  "dependencies": {
+    "game": "1.21.0",
+    "vsinstrumentsbase": "2.0.1"
+  }
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "file": "instruments:itemtypes/accordion",
+    "op": "addmerge",
+    "path": "/storageFlags",
+    "value": 2049
+  },
+  {
+    "file": "instruments:itemtypes/acousticguitar",
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 2049
+  },
+  {
+    "file": "instruments:itemtypes/clarinet",
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 2049
+  },
+  {
+    "file": "instruments:itemtypes/drum",
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 2049
+  },
+  {
+    "file": "instruments:itemtypes/dulcimer",
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 2049
+  },
+  {
+    "file": "instruments:itemtypes/grandpiano",
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 2049
+  },
+  {
+    "file": "instruments:itemtypes/harp",
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 2049
+  },
+  {
+    "file": "instruments:itemtypes/mic",
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 2049
+  },
+  {
+    "file": "instruments:itemtypes/musicbox",
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 2049
+  },
+  {
+    "file": "instruments:itemtypes/sax",
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 2049
+  },
+  {
+    "file": "instruments:itemtypes/steeldrum",
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 2049
+  },
+  {
+    "file": "instruments:itemtypes/trumpet",
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 2049
+  },
+  {
+    "file": "instruments:itemtypes/violin",
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 2049
+  }
+]

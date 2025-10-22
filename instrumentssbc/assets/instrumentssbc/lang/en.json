@@ -1,0 +1,25 @@
+{
+  "game:tabname-instruments-sbc": "Instruments: Starbound Complete",
+  "item-instrumentbag-large": "Large Instrument Bag",
+  "item-instrumentbag-small": "Small Instrument Bag",
+  "item-banjo": "Banjo",
+  "item-bassguitar": "Bass Guitar",
+  "item-brightpiano": "Bright Piano",
+  "item-electricbassguitar": "Electric Bass Guitar",
+  "item-flute": "Flute",
+  "item-leadguitar": "Lead Guitar",
+  "item-nylonguitar": "Nylon Guitar",
+  "item-ocarina": "Ocarina",
+  "item-overdriveguitar": "Overdrive Guitar",
+
+  "item-squarewave": "Square Wave Synth",
+  "item-spacesynth": "Space Synth",
+  "item-hammerdulcimer": "Hammer Dulcimer",
+  "item-harmonica": "Harmonica",
+  "item-koto": "Koto",
+  "item-mic-high": "High Pitch Microphone",
+  "item-oboe": "Oboe",
+  "item-reedorgan": "Reed Organ",
+  "item-rockorgan": "Rock Organ",
+  "item-xylophone": "Xylophone"
+}
