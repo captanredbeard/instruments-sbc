@@ -15,8 +15,8 @@
 		},
 		wearableAttachment: true,
 		backpackByType: {
-			"*-normal": { quantitySlots: 8, slotbgColor: "#9D6CA5", storageFlags: 2048 },
-			"*-sturdy": { quantitySlots: 12,slotbgColor: "#9D6CA5", storageFlags: 2048 }
+			"*-small": { quantitySlots: 8, slotbgColor: "#9D6CA5", storageFlags: 2048 },
+			"*-large": { quantitySlots: 12,slotbgColor: "#9D6CA5", storageFlags: 2048 }
 		}
 	},
 	shape: { "base": "item/bag/instrumentbag-{type}" },
