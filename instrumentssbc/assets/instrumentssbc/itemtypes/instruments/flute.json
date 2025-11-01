@@ -11,6 +11,12 @@
       "scale": 1.25
     }
   },
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [ "silver", "gold" ]
+    }
+  ],
   "creativeinventory": {
     "general": [ "*" ],
     "items": [ "*" ],
