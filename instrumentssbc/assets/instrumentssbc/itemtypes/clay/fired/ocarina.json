@@ -1,0 +1,57 @@
+{
+	"code": "ocarina",
+	"class": "instrumentssbc:ocarinaClass",
+	"variantgroups": [
+		{
+			"code": "color",
+			"states": [ "blue", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan" ]
+		},
+		{
+			"code": "state",
+			"states": [ "fired" ]
+		}
+	],
+	"shape": {
+		"shape": { "base": "item/ocarina-fired" }
+	},
+	"textures": {
+		"all": {
+			"base": "game:block/clay/hardened/{color}"
+		}
+	},
+	"attributes": {
+		"rackable": true,
+		"toolrackTransform": {
+			"rotation": { "z": 180 },
+			"translation": { "y": -0.4 },
+			"scale": 1.25
+		},
+		"onTongTransform": {
+			"translation": {
+				"x": -1.4,
+				"y": -1.12,
+				"z": -1.11
+			},
+			"rotation": {
+				"x": -83,
+				"y": -16,
+				"z": -4
+			},
+			"scale": 0.57
+		},
+		"handbook": {
+			"groupBy": [ "flowerpot-*-{state}" ]
+		}
+	},
+	"storageFlags": 2049,
+	"creativeinventory": {
+		"general": [ "*" ],
+		"instruments-sbc": [ "*" ]
+	},
+	"sounds": {
+		"walk": "walk/stone",
+		"break": "block/ceramicplace",
+		"hit": "block/ceramichit",
+		"place": "block/ceramicplace"
+	}
+}

@@ -1,0 +1,39 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:clay-*",
+    "name": "type",
+    "allowedVariants": [ "blue", "fire", "red" ]
+  },
+  "pattern": [
+    [
+      "__###",
+      "__###",
+      "__###",
+      "__###",
+      "__###",
+      "__###"
+    ],
+    [
+      "__###",
+      "_#__#",
+      "__#_#",
+      "__#_#",
+      "__#_#",
+      "__#_#"
+    ],
+    [
+      "__###",
+      "__###",
+      "__###",
+      "__###",
+      "__###",
+      "__###"
+    ]
+  ],
+  "name": "Ocarina Base",
+  "output": {
+    "type": "item",
+    "code": "ocarina-{type}-unfinished"
+  }
+}

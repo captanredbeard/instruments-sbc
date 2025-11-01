@@ -1,0 +1,181 @@
+{
+  "code": "ocarina",
+ // "class": "Block",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.4375,
+          "z2": 1
+        }
+      }
+    },
+    //{"name": "RightClickPickup"}
+  ],
+  "variantgroups": [
+    {
+      "code": "color",
+      "states": [
+        "blue",
+        "fire",
+        "red"
+      ]
+    },
+    {
+      "code": "state",
+      "states": [
+        "raw",
+        "unfinished"
+      ]
+    }
+  ],
+  "shape": {
+    "shape": { "base": "item/ocarina-raw" }
+  },
+  "textures": {
+    "all": {
+      "base": "game:block/clay/{color}clay"
+    }
+  },
+  "attributes": {
+    "onTongTransform": {
+      "translation": {
+        "x": -1.4,
+        "y": -1.12,
+        "z": -1.11
+      },
+      "rotation": {
+        "x": -83,
+        "y": -16,
+        "z": -4
+      },
+      "scale": 0.57
+    },
+    "handbook": {
+      "groupBy": [
+        "ocarina-*-{state}"
+      ]
+    }
+  },
+  "attributesByType": {
+    "ocarina-red-raw": {
+      "beehivekiln": {
+        "0": {
+          "type": "block",
+          "code": "ocarina-tan-fired"
+        },
+        "1": {
+          "type": "block",
+          "code": "ocarina-orange-fired"
+        },
+        "2": {
+          "type": "block",
+          "code": "ocarina-red-fired"
+        },
+        "3": {
+          "type": "block",
+          "code": "ocarina-brown-fired"
+        }
+      }
+    },
+    "ocarina-blue-raw": {
+      "beehivekiln": {
+        "0": {
+          "type": "block",
+          "code": "ocarina-cream-fired"
+        },
+        "1": {
+          "type": "block",
+          "code": "ocarina-gray-fired"
+        },
+        "2": {
+          "type": "block",
+          "code": "ocarina-black-fired"
+        },
+        "3": {
+          "type": "block",
+          "code": "ocarina-black-fired"
+        }
+      }
+    },
+    "ocarina-fire-raw": {
+      "beehivekiln": {
+        "0": {
+          "type": "block",
+          "code": "ocarina-fire-fired"
+        },
+        "1": {
+          "type": "block",
+          "code": "ocarina-fire-fired"
+        },
+        "2": {
+          "type": "block",
+          "code": "ocarina-fire-fired"
+        },
+        "3": {
+          "type": "block",
+          "code": "ocarina-fire-fired"
+        }
+      }
+    }
+  },
+  "combustiblePropsByType": {
+    "ocarina-fire-raw": {
+      "meltingPoint": 600,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltingType": "fire",
+      "requiresContainer": false,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ocarina-fire-fired"
+      }
+    },
+    "ocarina-*-raw": {
+      "meltingPoint": 600,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltingType": "fire",
+      "requiresContainer": false,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ocarina-blue-fired"
+      }
+    }
+  },
+  "doNotRenderAtLod2": true,
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "instruments-sbc": [
+      "*"
+    ]
+  },
+  "blockmaterial": "Ceramic",
+  "replaceable": 900,
+  "resistance": 1.5,
+  "lightAbsorption": 1,
+  "maxStackSize": 8,
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "emitsideao": {
+    "all": false
+  },
+  "sounds": {
+    "walk": "walk/stone",
+    "break": "block/ceramicplace",
+    "hit": "block/ceramichit",
+    "place": "block/ceramicplace"
+  }
+}
