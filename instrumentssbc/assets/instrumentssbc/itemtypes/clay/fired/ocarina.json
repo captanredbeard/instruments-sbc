@@ -11,21 +11,13 @@
 			"states": [ "fired" ]
 		}
 	],
-	"shape": {
-		"shape": { "base": "item/ocarina-fired" }
-	},
+	"shape": { "base": "item/ocarina-fired" },
 	"textures": {
 		"all": {
 			"base": "game:block/clay/hardened/{color}"
 		}
 	},
 	"attributes": {
-		"rackable": true,
-		"toolrackTransform": {
-			"rotation": { "z": 180 },
-			"translation": { "y": -0.4 },
-			"scale": 1.25
-		},
 		"onTongTransform": {
 			"translation": {
 				"x": -1.4,

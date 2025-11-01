@@ -45,6 +45,7 @@
 <ItemGroup>
   <Folder Include="assets\instrumentssbc\compatability\instruments\recipes\" />
   <Folder Include="assets\instrumentssbc\recipes\grid\brass\" />
+  <Folder Include="assets\instrumentssbc\shapes\block\abcbell\" />
   <Folder Include="assets\instrumentssbc\shapes\item\schematic\" />
   <Folder Include="assets\instruments\sounds\abcbell\oldsounds\" />
 </ItemGroup>

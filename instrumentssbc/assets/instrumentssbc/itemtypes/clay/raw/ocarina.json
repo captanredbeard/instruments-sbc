@@ -15,7 +15,7 @@
           "z2": 1
         }
       }
-    },
+    }
     //{"name": "RightClickPickup"}
   ],
   "variantgroups": [
@@ -36,7 +36,7 @@
     }
   ],
   "shape": {
-    "shape": { "base": "item/ocarina-raw" }
+     "base": "item/ocarina-raw" 
   },
   "textures": {
     "all": {
