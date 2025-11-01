@@ -1,0 +1,30 @@
+{
+  "ingredientPattern": "PB,KW",
+  "width": 2,
+  "height": 2,
+  "ingredients": {
+    "P": {
+      "type": "item",
+      "code": "schematic-instrumentssbc-*",
+      "allowedVariants": ["precussion","electric"]
+    },
+    "B": {
+      "type": "item",
+      "code": "game:bone"
+    },
+    "K": {
+      "type": "item",
+      "code": "game:knife-*",
+      "isTool": true,
+      "toolDurabilityCost": 10
+    },
+    "W": {
+      "type": "item",
+      "code": "game:plank-*"
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "pianokeys"
+  }
+}

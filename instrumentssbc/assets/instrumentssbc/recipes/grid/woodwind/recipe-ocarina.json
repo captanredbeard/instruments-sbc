@@ -1,0 +1,26 @@
+{
+  "ingredientPattern": "BOK",
+  "width": 3,
+  "height": 1,
+  "shapeless": true,
+  "ingredients": {
+    "B": {
+      "type": "item",
+      "code": "schematic-instrumentssbc-woodwind"
+    },
+    "O": {
+      "type": "item",
+      "code": "ocarina-*-unfinished",
+      "name": "type"
+    },
+    "K": {
+      "type": "item",
+      "code": "game:knife-*",
+      "isTool": true
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "ocarina-{type}-raw"
+  }
+}

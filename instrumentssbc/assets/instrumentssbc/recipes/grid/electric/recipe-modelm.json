@@ -1,0 +1,20 @@
+{
+  "enabled": "false",
+  "ingredientPattern": "BSP,_P_,___",
+  "width": 3,
+  "height": 3,
+  "ingredients": {
+    "B": {
+      "type": "item",
+      "code": "schematic-instrumentssbc-electric"
+    },
+    "S": {
+      "type": "item",
+      "code": "game:bone"
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "modelm"
+  }
+}

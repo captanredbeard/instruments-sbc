@@ -1,0 +1,46 @@
+{
+ "ingredientPattern": "BYJ,KSK,EPO",
+ "width":3,
+ "height":3,
+  "ingredients": {
+    "B": {
+      "type": "item",
+      "code": "schematic-instrumentssbc-electric"
+    },
+    "K": {
+      "type": "item",
+      "code": "pianokeys"
+    },
+    "P": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 2
+    },
+    "E": {
+      "type": "item",
+      "code": "game:jonasparts-cylinder01"
+    },
+    "O": {
+      "type": "item",
+      "code": "game:jonasframes-oscillator01"
+    },
+    "J": {
+      "type": "item",
+      "code": "game:jonasparts-connector01"
+    },
+    "S": {
+      "type": "item",
+      "code": "instrumentstring-*"
+    },
+    "Y": {
+      "type": "item",
+      "code": "game:knife-*",
+      "isTool": true,
+      "toolDurabilityCost": 12
+    }
+  },
+ "output": {
+ "type": "item",
+ "code": "spacesynth"
+ }
+}

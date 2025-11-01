@@ -1,0 +1,19 @@
+{
+ "ingredientPattern": "B__,___,___",
+ "width":3,
+ "height":3,
+ "ingredients": {
+ "B": {
+ "type": "item",
+ "code": "schematic-instrumentssbc-guitar"
+ },
+ "C": {
+ "type": "item",
+ "code": "game:bone"
+ }
+ },
+ "output": {
+ "type": "item",
+ "code": "electricbassguitar"
+ }
+}

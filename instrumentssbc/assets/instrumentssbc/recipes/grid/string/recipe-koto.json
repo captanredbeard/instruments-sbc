@@ -1,0 +1,33 @@
+{
+ "ingredientPattern": "PKB,SSS,WWW",
+ "width":3,
+ "height":3,
+  "ingredients": {
+    "P": {
+      "type": "item",
+      "code": "schematic-instrumentssbc-string"
+    },
+    "S": {
+      "type": "item",
+      "code": "instrumentstring-*"
+    },
+    "B": {
+      "type": "item",
+      "code": "game:bone"
+    },
+    "K": {
+      "type": "item",
+      "code": "game:knife-*",
+      "isTool": true,
+      "toolDurabilityCost": 6
+    },
+    "W": {
+      "type": "item",
+      "code": "game:plank-*"
+    }
+  },
+ "output": {
+ "type": "item",
+ "code": "koto"
+ }
+}
