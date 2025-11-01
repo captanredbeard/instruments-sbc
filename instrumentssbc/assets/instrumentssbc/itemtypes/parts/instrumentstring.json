@@ -1,0 +1,49 @@
+{
+  "code": "instrumentstring",
+  "behaviors": [
+  ],
+  "variantgroups": [
+    {
+      "code": "material",
+      "states": ["brass", "copper", "steel", "flax"]
+    }
+  ],
+  "shape": { "base": "item/mboxcomb" },
+  "attributes": {
+    "shelvable": true,
+    "displaycaseable": true,
+    "onDisplayTransform": {
+      "translation": {
+        "x": 0.02,
+        "y": 0,
+        "z": 0.02
+      }
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.05,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.75,
+        "y": 0.5,
+        "z": 0.75
+      },
+      "scale": 0.9
+    },
+    "handbook": {
+      "extraSections": [
+        {
+          "title": "instruments:madefrom-title-copper",
+          "text": "instruments:madefrom-copper"
+        }
+      ]
+    }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "instruments-sbc": [ "*" ]
+  }
+}

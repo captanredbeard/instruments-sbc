@@ -1,0 +1,43 @@
+{
+  "code": "instrumentreed",
+  "behaviors": [
+  ],
+  "variantgroups": [
+    {
+      "code": "material",
+      "states": ["brass", "steel", "flax"]
+    }
+  ],
+  "shape": { "base": "item/mboxcomb" },
+  "attributes": {
+    "shelvable": true,
+    "displaycaseable": true,
+    "onDisplayTransform": {
+      "translation": {
+        "x": 0.02,
+        "y": 0,
+        "z": 0.02
+      }
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.05,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.75,
+        "y": 0.5,
+        "z": 0.75
+      },
+      "scale": 0.9
+    },
+    "handbook": {
+    }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "instruments-sbc": [ "*" ]
+  }
+}
