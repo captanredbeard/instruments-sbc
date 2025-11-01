@@ -1,0 +1,21 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [ "brass", "steel" ]
+    },
+    "pattern": [
+      [
+        "#_#_#_#_#",
+        "#_#_#_#_#"
+      ]
+    ],
+    "name": "Instrument Reeds",
+    "output": {
+      "type": "item",
+      "code": "instrumentreed-{metal}"
+    }
+  }
+]

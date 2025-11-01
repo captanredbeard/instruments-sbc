@@ -1,0 +1,48 @@
+[
+	{
+		"ingredient": {
+			"type": "item",
+			"code": "game:ingot-*",
+			"name": "metal",
+			"allowedVariants": [ "zinc", "brass" ]
+		},
+		"pattern": [
+			[
+				"_####_",
+				"#____#",
+				"______",
+				"#____#",
+				"_####_"
+			]
+		],
+		"name": "Harmonoica Comb",
+		"output": {
+			"type": "item",
+			"code": "harmonicacomb-{metal}"
+		}
+	},
+	{
+		"enabled" : true,
+		"ingredient": {
+			"type": "item",
+			"code": "game:ingot-*",
+			"name": "metal",
+			"allowedVariants": [ "silver", "gold" ]
+		},
+		"pattern": [
+			[
+				"_####_",
+				"#____#",
+				"______",
+				"#____#",
+				"_####_"
+			]
+		],
+		"name": "Harmonoica Comb",
+		"output": {
+			"type": "item",
+			"code": "harmonicacomb-{metal}",
+			"quantity": 2
+		}
+	}
+]

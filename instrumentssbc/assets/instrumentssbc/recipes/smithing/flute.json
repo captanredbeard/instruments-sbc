@@ -1,0 +1,20 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-*",
+    "name": "metal",
+    "allowedVariants": [ "silver", "gold" ]
+  },
+  "pattern": [
+    [
+      "############",
+      "_##_________"
+    ],
+    
+  ],
+  "name": "Flute",
+  "output": {
+    "type": "item",
+    "code": "flute-{metal}"
+  }
+}
