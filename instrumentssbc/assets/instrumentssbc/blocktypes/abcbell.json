@@ -1,6 +1,6 @@
 {
   "code": "abcbell",
-  "enabled": true,
+  "enabled": false,
   "class": "instrumentssbc:abcbellBlock",
   "entityclass": "instrumentssbc:abcbellBlockEntity",
   "behaviors": [
