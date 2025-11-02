@@ -31,14 +31,6 @@
         "z": 0.75
       },
       "scale": 0.9
-    },
-    "handbook": {
-      "extraSections": [
-        {
-          "title": "instruments:madefrom-title-copper",
-          "text": "instruments:madefrom-copper"
-        }
-      ]
     }
   },
   "creativeinventory": {
