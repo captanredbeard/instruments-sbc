@@ -13,7 +13,7 @@
       <Private>false</Private>
     </Reference>
     <Reference Include="vsinstruments_base">
-      <HintPath>..\..\..\..\..\AppData\Roaming\VintagestoryData\Mods\vsinstrumentsbase_2.0.4\vsinstruments_base.dll</HintPath>
+      <HintPath>..\..\..\..\..\AppData\Roaming\VintagestoryData\Mods\vsinstrumentsbase_2.0.5\vsinstruments_base.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VSSurvivalMod">
@@ -49,5 +49,7 @@
   <Folder Include="assets\instrumentssbc\shapes\item\schematic\" />
   <Folder Include="assets\instruments\sounds\abcbell\oldsounds\" />
 </ItemGroup>
+
+<ProjectExtensions><VisualStudio><UserProperties assets_4instrumentssbc_4itemtypes_4parts_4instrumentstring_1json__JsonSchema="modi" assets_4instrumentssbc_4itemtypes_4parts_4percussionmallet_1json__JsonSchema="vintage" /></VisualStudio></ProjectExtensions>
 
 </Project>

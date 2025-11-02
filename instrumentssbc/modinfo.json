@@ -11,6 +11,6 @@
   "version": "0.2.0",
   "dependencies": {
     "game": "1.21.0",
-    "vsinstrumentsbase": "2.0.1"
+    "vsinstrumentsbase": "2.0.5"
   }
 }

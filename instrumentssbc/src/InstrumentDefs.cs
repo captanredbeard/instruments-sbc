@@ -144,7 +144,7 @@ namespace instrumentssbc.src
         {
             base.OnLoaded(api);
             instrument = "modelm";
-            animation = "holdinglanternrighthand";
+            animation = "holdbothhands";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
         }
     }
