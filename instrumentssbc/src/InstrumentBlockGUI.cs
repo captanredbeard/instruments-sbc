@@ -98,8 +98,7 @@ namespace instrumentssbc.src
                     writer.Write(newName);
                     data = ms.ToArray();
                 }
-
-                capi.Network.SendBlockEntityPacket(BlockEntityPosition.X, BlockEntityPosition.Y, BlockEntityPosition.Z, 1004, data);
+                capi.Network.SendBlockEntityPacket(BlockEntityPosition, 1004, data);
             }
         }
         private void OnBandNameChange(string newBand)
@@ -121,7 +120,7 @@ namespace instrumentssbc.src
                 data = ms.ToArray();
             }
 
-            capi.Network.SendBlockEntityPacket(BlockEntityPosition.X, BlockEntityPosition.Y, BlockEntityPosition.Z, 1005, data);
+            capi.Network.SendBlockEntityPacket(BlockEntityPosition, 1005, data);
         }
         private bool OnSongSelect()
         {
@@ -148,7 +147,7 @@ namespace instrumentssbc.src
                 data = ms.ToArray();
             }
 
-            capi.Network.SendBlockEntityPacket(BlockEntityPosition.X, BlockEntityPosition.Y, BlockEntityPosition.Z, 1006, data);
+            capi.Network.SendBlockEntityPacket(BlockEntityPosition, 1006, data);
             return 1;
         }
     }
