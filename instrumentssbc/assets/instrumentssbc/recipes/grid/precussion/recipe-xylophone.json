@@ -1,17 +1,38 @@
 {
- "ingredientPattern": "B__,___,___",
+ "ingredientPattern": "RJE,BBB,PNP",
  "width":3,
  "height":3,
- "ingredients": {
- "B": {
- "type": "item",
- "code": "schematic-instrumentssbc-guitar"
- },
- "C": {
- "type": "item",
- "code": "game:bone"
- }
- },
+  "ingredients": {
+    "R": {
+      "type": "item",
+      "code": "schematic-instrumentssbc-guitar"
+    },
+    "E": {
+      "type": "item",
+      "code": "precussionmallet-wood"
+    },
+    "B": {
+      "type": "item",
+      "code": "game:bone",
+      "quantity": 4
+    },
+    "J": {
+      "type": "item",
+      "code": "game:knife-*",
+      "isTool": true,
+      "toolDurabilityCost": 12
+    },
+    "P": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 2
+    },
+    "N": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-*",
+      "quantity": 1
+    }
+  },
  "output": {
  "type": "item",
  "code": "xylophone"
