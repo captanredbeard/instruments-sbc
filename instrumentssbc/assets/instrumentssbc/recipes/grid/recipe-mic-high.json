@@ -1,17 +1,31 @@
 {
- "ingredientPattern": "B__,___,___",
+ "ingredientPattern": "BK_,LJ_,_S_",
  "width":3,
  "height":3,
- "ingredients": {
- "B": {
- "type": "item",
- "code": "schematic-instrumentssbc-*"
- },
- "C": {
- "type": "item",
- "code": "game:bone"
- }
- },
+  "ingredients": {
+    "B": {
+      "type": "item",
+      "code": "schematic-instrumentssbc-*"
+    },
+    "L": {
+      "type": "item",
+      "code": "game:linen-*-down"
+    },
+    "J": {
+      "type": "item",
+      "code": "game:drygrass"
+    },
+    "K": {
+      "type": "item",
+      "code": "game:knife-*",
+      "isTool": true,
+      "toolDurabilityCost": 2
+    },
+    "S": {
+      "type": "item",
+      "code": "game:stick"
+    }
+  },
  "output": {
  "type": "item",
  "code": "mic-high"
