@@ -7,13 +7,9 @@
       "type": "item",
       "code": "schematic-instrumentssbc-guitar"
     },
-    "C": {
-      "type": "item",
-      "code": "game:bone"
-    },
     "S": {
       "type": "item",
-      "code": "instrumentstring-brass",
+      "code": "instrumentstring-flax",
       "quantity": 5
     },
     "B": {

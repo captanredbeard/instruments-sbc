@@ -1,19 +1,39 @@
 {
- "ingredientPattern": "B__,___,___",
- "width":3,
- "height":3,
- "ingredients": {
- "B": {
- "type": "item",
- "code": "schematic-instrumentssbc-guitar"
- },
- "C": {
- "type": "item",
- "code": "game:bone"
- }
- },
- "output": {
- "type": "item",
- "code": "nylonguitar"
- }
+  "ingredientPattern": "JKP,_PB,HS_",
+  "width": 3,
+  "height": 3,
+  "ingredients": {
+    "J": {
+      "type": "item",
+      "code": "schematic-instrumentssbc-guitar"
+    },
+    "S": {
+      "type": "item",
+      "code": "instrumentstring-flax",
+      "quantity": 6
+    },
+    "B": {
+      "type": "item",
+      "code": "game:bone"
+    },
+    "K": {
+      "type": "item",
+      "code": "game:knife-*",
+      "isTool": true,
+      "toolDurabilityCost": 6
+    },
+    "H": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 3
+    },
+    "P": {
+      "type": "item",
+      "code": "game:plank-*"
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "nylonguitar"
+  }
 }

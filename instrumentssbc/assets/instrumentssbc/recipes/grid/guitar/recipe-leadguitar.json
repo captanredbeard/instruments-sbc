@@ -3,14 +3,10 @@
  "width":3,
  "height":3,
  "ingredients": {
- "B": {
- "type": "item",
- "code": "schematic-instrumentssbc-guitar"
- },
- "C": {
- "type": "item",
- "code": "game:bone"
- }
+  "B": {
+    "type": "item",
+    "code": "schematic-instrumentssbc-guitar"
+  }
  },
  "output": {
  "type": "item",
