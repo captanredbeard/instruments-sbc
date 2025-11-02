@@ -13,7 +13,7 @@
     },
     "H": {
       "type": "item",
-      "code": "game:hammer-*",
+      "code": "precussionmallet-brass"
     },
     "P": {
       "type": "item",
