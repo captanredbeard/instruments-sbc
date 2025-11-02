@@ -1,5 +1,5 @@
 {
-  "ingredientPattern": "PK,_F",
+  "ingredientPattern": "PK,_R",
   "width": 2,
   "height": 2,
   "shapeless": true,
@@ -8,21 +8,21 @@
       "type": "item",
       "code": "schematic-instrumentssbc-woodwind"
     },
-    "F": {
+    "R": {
       "type": "item",
-      "code": "game:flaxtwine",
-      "quantity": 4
+      "code": "game:cattailtops",
+      "quantity": 6
     },
     "K": {
       "type": "item",
       "code": "game:knife-*",
       "isTool": true,
-      "toolDurabilityCost": 4
+      "toolDurabilityCost": 12
     }
   },
   "output": {
     "type": "item",
-    "code": "instrumentstring-flax",
-    "quantity": 4
+    "code": "instrumentreed-reed",
+    "quantity": 6
   }
 }

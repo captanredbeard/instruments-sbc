@@ -6,11 +6,12 @@
     "P": {
       "type": "item",
       "code": "schematic-instrumentssbc-*",
-      "allowedVariants": ["precussion","electric"]
+      "allowedVariants": ["precussion","electric","woodwind"]
     },
     "B": {
       "type": "item",
-      "code": "game:bone"
+      "code": "game:bone",
+      "quantity": 2
     },
     "K": {
       "type": "item",
@@ -25,6 +26,7 @@
   },
   "output": {
     "type": "item",
-    "code": "pianokeys"
+    "code": "pianokeys",
+    "quantaty": 4
   }
 }
