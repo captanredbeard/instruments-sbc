@@ -1,6 +1,6 @@
 {
   "code": "ocarina",
- // "class": "Block",
+ // "class": "item",
   "behaviors": [
     {
       "name": "GroundStorable",
@@ -67,60 +67,60 @@
     "ocarina-red-raw": {
       "beehivekiln": {
         "0": {
-          "type": "block",
-          "code": "ocarina-tan-fired"
+          "type": "item",
+          "code": "instrumentssbc:ocarina-tan-fired"
         },
         "1": {
-          "type": "block",
-          "code": "ocarina-orange-fired"
+          "type": "item",
+          "code": "instrumentssbc:ocarina-orange-fired"
         },
         "2": {
-          "type": "block",
-          "code": "ocarina-red-fired"
+          "type": "item",
+          "code": "instrumentssbc:ocarina-red-fired"
         },
         "3": {
-          "type": "block",
-          "code": "ocarina-brown-fired"
+          "type": "item",
+          "code": "instrumentssbc:ocarina-brown-fired"
         }
       }
     },
     "ocarina-blue-raw": {
       "beehivekiln": {
         "0": {
-          "type": "block",
-          "code": "ocarina-cream-fired"
+          "type": "item",
+          "code": "instrumentssbc:ocarina-cream-fired"
         },
         "1": {
-          "type": "block",
-          "code": "ocarina-gray-fired"
+          "type": "item",
+          "code": "instrumentssbc:ocarina-gray-fired"
         },
         "2": {
-          "type": "block",
-          "code": "ocarina-black-fired"
+          "type": "item",
+          "code": "instrumentssbc:ocarina-black-fired"
         },
         "3": {
-          "type": "block",
-          "code": "ocarina-black-fired"
+          "type": "item",
+          "code": "instrumentssbc:ocarina-black-fired"
         }
       }
     },
     "ocarina-fire-raw": {
       "beehivekiln": {
         "0": {
-          "type": "block",
-          "code": "ocarina-fire-fired"
+          "type": "item",
+          "code": "instrumentssbc:ocarina-fire-fired"
         },
         "1": {
-          "type": "block",
-          "code": "ocarina-fire-fired"
+          "type": "item",
+          "code": "instrumentssbc:ocarina-fire-fired"
         },
         "2": {
-          "type": "block",
-          "code": "ocarina-fire-fired"
+          "type": "item",
+          "code": "instrumentssbc:ocarina-fire-fired"
         },
         "3": {
-          "type": "block",
-          "code": "ocarina-fire-fired"
+          "type": "item",
+          "code": "instrumentssbc:ocarina-fire-fired"
         }
       }
     }
@@ -134,7 +134,7 @@
       "requiresContainer": false,
       "smeltedStack": {
         "type": "item",
-        "code": "ocarina-fire-fired"
+        "code": "instrumentssbc:ocarina-fire-fired"
       }
     },
     "ocarina-*-raw": {
@@ -145,7 +145,7 @@
       "requiresContainer": false,
       "smeltedStack": {
         "type": "item",
-        "code": "ocarina-blue-fired"
+        "code": "instrumentssbc:ocarina-blue-fired"
       }
     }
   },

@@ -41,26 +41,59 @@
 	attributesByType:{
 		"toolmold-red-raw-*":{
 			beehivekiln:{
-				"0": { "type": "block", "code": "toolmold-tan-fired-{tooltype}" },
-				"1": { "type": "block", "code": "toolmold-orange-fired-{tooltype}" },
-				"2": { "type": "block", "code": "toolmold-red-fired-{tooltype}" },
-				"3": { "type": "block", "code": "toolmold-brown-fired-{tooltype}" }
+				"0": { "type": "block", "code": "instrumentssbc:toolmold-tan-fired-{tooltype}" },
+				"1": {
+					"type": "block",
+					"code": "instrumentssbc:toolmold-orange-fired-{tooltype}"
+				},
+				"2": {
+					"type": "block",
+					"code": "instrumentssbc:toolmold-red-fired-{tooltype}"
+				},
+				"3": {
+					"type": "block",
+					"code": "instrumentssbc:toolmold-brown-fired-{tooltype}"
+				}
 			}
 		},
 		"toolmold-blue-raw-*":{
 			beehivekiln:{
-				"0": { "type": "block", "code": "toolmold-cream-fired-{tooltype}"},
-				"1": { "type": "block", "code": "toolmold-gray-fired-{tooltype}"},
-				"2": { "type": "block", "code": "toolmold-black-fired-{tooltype}"},
-				"3": { "type": "block", "code": "toolmold-black-fired-{tooltype}"}
+				"0": {
+					"type": "block",
+					"code": "instrumentssbc:toolmold-cream-fired-{tooltype}"
+				},
+				"1": {
+					"type": "block",
+					"code": "instrumentssbc:toolmold-gray-fired-{tooltype}"
+				},
+				"2": {
+					"type": "block",
+					"code": "instrumentssbc:toolmold-black-fired-{tooltype}"
+				},
+				"3": {
+					"type": "block",
+					"code": "instrumentssbc:toolmold-black-fired-{tooltype}"
+				}
 			}
 		},
 		"toolmold-fire-raw-*":{
 			beehivekiln:{
-				"0": { "type": "block", "code": "toolmold-fire-fired-{tooltype}"},
-				"1": { "type": "block", "code": "toolmold-fire-fired-{tooltype}"},
-				"2": { "type": "block", "code": "toolmold-fire-fired-{tooltype}"},
-				"3": { "type": "block", "code": "toolmold-fire-fired-{tooltype}"}
+				"0": {
+					"type": "block",
+					"code": "instrumentssbc:toolmold-fire-fired-{tooltype}"
+				},
+				"1": {
+					"type": "block",
+					"code": "instrumentssbc:toolmold-fire-fired-{tooltype}"
+				},
+				"2": {
+					"type": "block",
+					"code": "instrumentssbc:toolmold-fire-fired-{tooltype}"
+				},
+				"3": {
+					"type": "block",
+					"code": "instrumentssbc:toolmold-fire-fired-{tooltype}"
+				}
 			}
 		}
 	},
@@ -70,7 +103,10 @@
 			meltingDuration: 45,
 			smeltedRatio: 1,
 			smeltingType: "fire",
-			smeltedStack: { type: "block", code: "toolmold-fire-fired-{tooltype}" },
+			smeltedStack: {
+				"type": "block",
+				"code": "instrumentssbc:toolmold-fire-fired-{tooltype}"
+			},
 			requiresContainer: false
 		},
 		"toolmold-*-raw-*": {
@@ -78,7 +114,10 @@
 			meltingDuration: 45,
 			smeltedRatio: 1,
 			smeltingType: "fire",
-			smeltedStack: { type: "block", code: "toolmold-blue-fired-{tooltype}" },
+			smeltedStack: {
+				"type": "block",
+				"code": "instrumentssbc:toolmold-blue-fired-{tooltype}"
+			},
 			requiresContainer: false
 		}
 	},
