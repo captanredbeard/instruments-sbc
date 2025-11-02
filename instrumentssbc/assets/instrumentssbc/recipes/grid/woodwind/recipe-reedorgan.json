@@ -1,19 +1,41 @@
 {
- "ingredientPattern": "B__,___,___",
- "width":3,
- "height":3,
- "ingredients": {
-  "B": {
-    "type": "item",
-    "code": "schematic-instrumentssbc-woodwind"
+  "ingredientPattern": "BT_,KSK,PNP",
+  "width": 3,
+  "height": 3,
+  "ingredients": {
+    "B": {
+      "type": "item",
+      "code": "schematic-instrumentssbc-woodwind"
+    },
+    "T": {
+      "type": "item",
+      "code": "game:knife-*",
+      "isTool": true,
+      "toolDurabilityCost": 32
+    },
+    "K": {
+      "type": "item",
+      "code": "pianokeys",
+      "quantity": 8
+    },
+    "P": {
+      "type": "item",
+      "code": "game:planks-*",
+      "quantity": 2
+    },
+    "S": {
+      "type": "item",
+      "code": "instrumentreed-brass",
+      "quantity": 32
+    },
+    "N": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-*",
+      "quantity": 1
+    }
   },
- "C": {
- "type": "item",
- "code": "game:bone"
- }
- },
- "output": {
- "type": "item",
- "code": "reedorgan"
- }
+  "output": {
+    "type": "item",
+    "code": "reedorgan"
+  }
 }
