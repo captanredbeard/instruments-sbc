@@ -5,14 +5,13 @@
 		{
 			"name": "GroundStorable",
 			"properties": {
-				"layout": "Quadrants",
-				"placeRemoveSound": "game:sounds/player/build",
+				"layout": "SingleCenter",
 				"collisionBox": {
 					"x1": 0,
 					"y1": 0,
 					"z1": 0,
 					"x2": 1,
-					"y2": 0.25,
+					"y2": 0.125,
 					"z2": 1
 				}
 			}
@@ -21,34 +20,10 @@
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": [ "woodwind", "precussion", "string", "electric", "guitar" /*, "brass"*/ ]
+			"states": [ "woodwind", "precussion", "string", "electric", "guitar" , "brass" ]
 		}
 	],
 	"attributes": {
-
-		"moldrackable": true,
-		"onmoldrackTransform": {
-			"translation": {
-				"x": 0.178,
-				"y": -0.12,
-				"z": -0.23
-			},
-			"rotation": {
-				"x": 90,
-				"y": 0,
-				"z": 86
-			},
-			"scale": 0.6
-		},
-		"displaycaseable": true,
-		"onDisplayTransform": {
-			"translation": {
-				"x": 0,
-				"y": -0.12,
-				"z": 0
-			},
-			"scale": 0.75
-		},
 		"noConsumeOnCrafting": true,
 		"groundStorageTransform": {
 			"rotation": {
@@ -60,29 +35,8 @@
 				"x": 0.5,
 				"y": 0,
 				"z": 0.5
-			},
-			"scale": 0.6
-		},
-		"onshelfTransform": {
-			"translation": {
-				"x": 0.35,
-				"y": -0.36,
-				"z": 0.1
-			},
-			"rotation": {
-				"x": 90,
-				"y": 0,
-				"z": 80
-			},
-			"origin": {
-				"x": -0.2,
-				"y": 0.74,
-				"z": 0.1
-			},
-			"scale": 0.46
-		},
-		"shelvable": true,
-		"bookshelveable": true
+			}
+		}
 	},
 	"shape": { "base": "item/schematic-shape" },
 	"texturesbyType": {
@@ -152,24 +106,23 @@
 			"y": -0.02,
 			"z": 0.5
 		},
-		"scale": 2.94
+		"scale": 1.8
 	},
 	"tpHandTransform": {
 		"translation": {
-			"x": -1.27,
-			"y": -0.63,
-			"z": -0.8
+			"x": -1.3,
+			"y": -0.7,
+			"z": -1.2
 		},
 		"rotation": {
-			"x": -44,
-			"y": -141,
-			"z": 83
+			"x": -57,
+			"y": -165,
+			"z": 92
 		},
 		"origin": {
 			"x": 0.4,
 			"y": 0.2,
 			"z": 0.4
-		},
-		"scale": 0.6
+		}
 	}
 }

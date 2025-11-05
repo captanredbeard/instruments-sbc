@@ -6,12 +6,12 @@
   "item-bassguitar": "Bass Guitar",
   "item-brightpiano": "Bright Piano",
   "item-electricbassguitar": "Electric Bass Guitar",
-  "item-flute": "Flute",
+  "item-flute-silver": "Silver Flute",
+  "item-flute-gold": " Golden Flute",
   "item-leadguitar": "Lead Guitar",
   "item-nylonguitar": "Nylon Guitar",
   "item-ocarina": "Ocarina",
   "item-overdriveguitar": "Overdrive Guitar",
-
   "item-squarewave": "Square Wave Synth",
   "item-spacesynth": "Space Synth",
   "item-hammerdulcimer": "Hammer Dulcimer",
@@ -21,5 +21,28 @@
   "item-oboe": "Oboe",
   "item-reedorgan": "Reed Organ",
   "item-rockorgan": "Rock Organ",
-  "item-xylophone": "Xylophone"
+  "item-xylophone": "Xylophone",
+
+
+  //Schematics
+  "item-schematic-instrumentssbc-woodwind": "Woodwind Instrument Schematic",
+  "item-schematic-instrumentssbc-string": "Stringed Instrument Schematic",
+  "item-schematic-instrumentssbc-guitar": "Guitar Instrument Schematic",
+  "item-schematic-instrumentssbc-precussion": "Precussion Instrument Schematic",
+  "item-schematic-instrumentssbc-brass": "Brass Instrument Schematic",
+
+  //Parts
+  "item-instrumentreed-flax": "Woodwind Reed",
+  "item-instrumentreed-brass": "Brass Reed",
+  "item-instrumentreed-steel": "Steel Reed",
+
+  "item-instrumentstring-flax": "Flax Instrument String",
+  "item-instrumentstring-brass": "Brass Instrument String",
+  "item-instrumentstring-steel": "Steel Instrument String",
+  "item-instrumentstring-cupronickel": "Cupronickel Instrument String",
+
+  "item-harmonicacomb-zinc": "Zinc Harmonica Comb",
+  "item-harmonicacomb-brass": "Brass Harmonica Comb",
+  "item-harmonicacomb-silver": "Silver Harmonica Comb",
+  "item-harmonicacomb-gold": "Golden Harmonica Comb"
 }
