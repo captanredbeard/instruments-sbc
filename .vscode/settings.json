@@ -5,7 +5,11 @@
         "**/.hg": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
-        "**/src": true
+        "**/src": true,
+        "**/bin": true,
+        "**/obj": true,
+        "CakeBuild": true,
+        "**/instrumentssbc.slnx": true
     },
     "explorerExclude.backup": {}
 }
