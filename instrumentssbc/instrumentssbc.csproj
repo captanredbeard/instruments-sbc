@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <Reference Include="VintagestoryAPI">
-      <HintPath>$(VINTAGE_STORY)/VintagestoryAPI.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY_1_21)/VintagestoryAPI.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="vsinstruments_base">
@@ -17,15 +17,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="VSSurvivalMod">
-      <HintPath>$(VINTAGE_STORY)/Mods/VSSurvivalMod.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY_1_21)/Mods/VSSurvivalMod.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VSEssentials">
-      <HintPath>$(VINTAGE_STORY)/Mods/VSEssentials.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY_1_21)/Mods/VSEssentials.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VSCreativeMod">
-      <HintPath>$(VINTAGE_STORY)/Mods/VSCreativeMod.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY_1_21)/Mods/VSCreativeMod.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -44,12 +44,14 @@
 
 <ItemGroup>
   <Folder Include="assets\instrumentssbc\compatability\instruments\recipes\" />
+  <Folder Include="assets\instrumentssbc\patches\" />
   <Folder Include="assets\instrumentssbc\recipes\grid\brass\" />
   <Folder Include="assets\instrumentssbc\shapes\block\abcbell\" />
   <Folder Include="assets\instrumentssbc\shapes\item\schematic\" />
+  <Folder Include="assets\instrumentssbc\textures\item\instrument\" />
   <Folder Include="assets\instruments\sounds\abcbell\oldsounds\" />
 </ItemGroup>
 
-<ProjectExtensions><VisualStudio><UserProperties assets_4instrumentssbc_4itemtypes_4parts_4instrumentstring_1json__JsonSchema="modi" assets_4instrumentssbc_4itemtypes_4parts_4percussionmallet_1json__JsonSchema="vintage" /></VisualStudio></ProjectExtensions>
+<ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
 </Project>
