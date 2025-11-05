@@ -26,12 +26,11 @@
     "*": { "base": "item/part/precussionmallet-metal" }
   },
   "texturesByType": {
-    "*-brass": {
-      "metal": { "base": "game:block/metal/ingot/{material}" }
-    },
-    "*-steel": {
+    "*-flax": {},
+    "*": {
       "metal": { "base": "game:block/metal/ingot/{material}" }
     }
+    
   },
   "creativeinventory": {
     "general": [ "*" ],
