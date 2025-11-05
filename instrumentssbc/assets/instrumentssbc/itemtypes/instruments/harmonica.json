@@ -2,19 +2,36 @@
   "code": "harmonica",
   "class": "instrumentssbc:harmonicaClass",
   "behaviors": [],
-  "shape": { "base": "item/harmonica" },
+  "shape": { "base": "item/instrument/harmonica" },
+  "textures": {
+    "metal": { "base": "game:item/resource/plate/{metal}" }
+  },
+
   "attributes": {
     "rackable": true,
     "toolrackTransform": {
-      "rotation": { "z": 180 },
-      "translation": { "y": -0.4 },
-      "scale": 1.25
+      "translation": {
+        "x": 0.68,
+        "y": 0.435,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 4,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1.61
     }
   },
   "variantgroups": [
     {
       "code": "metal",
-      "states": [ "zinc","brass","silver","gold" ]
+      "states": [ "zinc", "brass", "silver", "gold" ]
     }
   ],
   "creativeinventory": {
@@ -23,5 +40,23 @@
     "instruments-sbc": [ "*" ]
   },
   "storageFlags": 2049,
-  "heldTpUseAnimation": "holdbothhandslarge"
+  "heldTpUseAnimation": "holdbothhandslarge",
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.6,
+      "z": 0
+    },
+    "rotation": {
+      "x": -40,
+      "y": 59,
+      "z": 13
+    },
+    "origin": {
+      "x": 0,
+      "y": -0.02,
+      "z": 0
+    },
+    "scale": 5.72
+  }
 }
