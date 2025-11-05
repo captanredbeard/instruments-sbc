@@ -1,0 +1,69 @@
+{
+  "code": "instrumentreed",
+  "behaviors": [
+  ],
+  "variantgroups": [
+    {
+      "code": "material",
+      "states": [ "brass", "steel", "reed" ]
+    }
+  ],
+  "shape": { "base": "item/mboxcomb" },
+  "shapeByType": {
+    "*-reed": { "base": "item/part/instrumentreed-flax" },
+    "*": { "base": "item/part/instrumentreed-metal" }
+  },
+  "texturesByType": {
+    "*-reed": {},
+    "*": { "metal": { "base": "game:block/metal/ingot/{material}" } }
+
+  },
+  "attributes": {
+    "shelvable": true,
+    "displaycaseable": true,
+    "onDisplayTransform": {
+      "translation": {
+        "x": 0.02,
+        "y": 0,
+        "z": 0.02
+      }
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.05,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.75,
+        "y": 0.5,
+        "z": 0.75
+      },
+      "scale": 0.9
+    }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "instruments-sbc": [ "*" ]
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 3.2,
+      "y": -1,
+      "z": 0
+    },
+    "rotation": {
+      "x": -38,
+      "y": -31,
+      "z": 120
+    },
+
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 5.14
+  }
+}

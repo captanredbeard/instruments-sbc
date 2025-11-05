@@ -1,0 +1,106 @@
+{
+  "code": "precussionmallet",
+  "classbyType": {
+    "@(precussionmallet-brass|precussionmallet-steel)": "instrumentssbc:precussionMalletClass"
+  },
+  "attributes": {
+    "heldItemPitchFollow": 0.9,
+    "handbook": {
+      "groupBy": [ "precussionmallet-*" ]
+    }
+  },
+  "variantgroups": [
+    {
+      "code": "material",
+      "states": [
+        "brass",
+        "steel",
+        "flax",
+        "wood"
+      ]
+    }
+  ],
+  "shapeByType": {
+    "*-flax": { "base": "item/part/precussionmallet-flax" },
+    "*-wood": { "base": "item/part/precussionmallet-wood" },
+    "*": { "base": "item/part/precussionmallet-metal" }
+  },
+  "texturesByType": {
+    "*-brass": {
+      "metal": { "base": "game:block/metal/ingot/{material}" }
+    },
+    "*-steel": {
+      "metal": { "base": "game:block/metal/ingot/{material}" }
+    }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "instruments-sbc": [ "*" ]
+  },
+  "storageFlags": 257,
+  "heldTpHitAnimation": "smithingwide",
+
+  "fpHandTransform": {
+    "translation": {
+      "x": 0.0468,
+      "y": -0.2,
+      "z": 0
+    },
+    "rotation": {
+      "x": -33,
+      "y": 7,
+      "z": 90
+    },
+    "scale": 2.75
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -77,
+      "y": 46,
+      "z": 8
+    },
+    "origin": {
+      "x": 0.59,
+      "y": 0.5,
+      "z": 0.49
+    },
+    "scale": 2.6
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.45,
+      "z": 0.5
+    },
+    "scale": 4.5
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.65,
+      "y": -0.48,
+      "z": -0.52
+    },
+    "rotation": {
+      "x": 90,
+      "y": 1,
+      "z": 0
+    },
+    "scale": 1
+  }
+}
