@@ -1,28 +1,89 @@
-{
-  "ingredientPattern": "PK,_R",
-  "width": 2,
-  "height": 2,
-  "shapeless": true,
-  "ingredients": {
-    "P": {
-      "type": "item",
-      "code": "schematic-instrumentssbc-woodwind"
+[
+  {
+    "ingredientPattern": "PR,KF",
+    "width": 2,
+    "height": 2,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "schematic-instrumentssbc-woodwind"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:cattailtops"
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "F": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
     },
-    "R": {
+    "output": {
       "type": "item",
-      "code": "game:cattailtops",
-      "quantity": 6
-    },
-    "K": {
-      "type": "item",
-      "code": "game:knife-*",
-      "isTool": true,
-      "toolDurabilityCost": 12
+      "code": "instrumentreed-reed",
+      "quantity": 2
+    }
+    {
+      "ingredientPattern": "PR,KF",
+      "width": 2,
+      "height": 2,
+      "ingredients": {
+        "P": {
+          "type": "item",
+          "code": "schematic-instrumentssbc-woodwind"
+        },
+        "R": {
+          "type": "item",
+          "code": "game:cattailtops"
+        },
+        "K": {
+          "type": "item",
+          "code": "game:knife-*",
+          "isTool": true
+        },
+        "F": {
+          "type": "item",
+          "code": "game:flaxtwine"
+        }
+      },
+      "output": {
+        "type": "item",
+        "code": "instrumentreed-reed",
+        "quantity": 2
+      }
     }
   },
-  "output": {
-    "type": "item",
-    "code": "instrumentreed-reed",
-    "quantity": 6
+  {
+    "ingredientPattern": "RP,FK",
+    "width": 2,
+    "height": 2,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "schematic-instrumentssbc-woodwind"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:cattailtops"
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "F": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "instrumentreed-reed",
+      "quantity": 2
+    }
   }
-}
+]

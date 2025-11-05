@@ -1,19 +1,70 @@
-{
- "ingredientPattern": "B__,___,___",
- "width":3,
- "height":3,
- "ingredients": {
-  "B": {
-    "type": "item",
-    "code": "schematic-instrumentssbc-woodwind"
+[
+  {
+    "ingredientPattern": "BR_,KP_,IP_",
+    "width": 2,
+    "height": 3,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "schematic-instrumentssbc-woodwind"
+      },
+      "R": {
+        "type": "item",
+        "code": "instrumentreed-reed"
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true,
+        "toolDurabilityCost": 8
+      },
+      "P": {
+        "type": "item",
+        "code": "game:plank-ebony"
+      },
+      "I": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "oboe-{metal}"
+    }
   },
- "C": {
- "type": "item",
- "code": "game:bone"
- }
- },
- "output": {
- "type": "item",
- "code": "oboe"
- }
-}
+  {
+    "ingredientPattern": "RB_,PK_,PI_",
+    "width": 2,
+    "height": 3,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "schematic-instrumentssbc-woodwind"
+      },
+      "R": {
+        "type": "item",
+        "code": "instrumentreed-reed"
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true,
+        "toolDurabilityCost": 32
+      },
+      "P": {
+        "type": "item",
+        "code": "game:plank-ebony"
+      },
+      "I": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "oboe-{metal}"
+    }
+  }
+]
