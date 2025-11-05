@@ -11,9 +11,9 @@
 			"states": [ "fired" ]
 		}
 	],
-	"shape": { "base": "item/ocarina-fired" },
+	"shape": { "base": "item/instrument/ocarina-holes" },
 	"textures": {
-		"all": {
+		"color": {
 			"base": "game:block/clay/hardened/{color}"
 		}
 	},
@@ -31,6 +31,24 @@
 			},
 			"scale": 0.57
 		},
+		"groundStorageTransform": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": -0.041
+			},
+			"rotation": {
+				"x": 0,
+				"y": -45,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.54,
+				"y": 0.05,
+				"z": 0.5
+			},
+			"scale": 0.9
+		},
 		"handbook": {
 			"groupBy": [ "flowerpot-*-{state}" ]
 		}
@@ -39,6 +57,28 @@
 	"creativeinventory": {
 		"general": [ "*" ],
 		"instruments-sbc": [ "*" ]
+	},
+	"guiTransform": {
+		"translation": {
+			"x": 6,
+			"y": 8,
+			"z": 0
+		},
+		"rotation": {
+			"x": 132,
+			"y": 47,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.54,
+			"y": 0.05,
+			"z": 0.5
+		},
+		"scaleXyz": {
+			"x": -2.83,
+			"y": 2.83,
+			"z": 2.83
+		}
 	},
 	"sounds": {
 		"walk": "game:walk/stone",
