@@ -3,65 +3,26 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"brass.png": [32, 32],
-		"brass4.png": [32, 32],
-		"tin.png": [32, 32]
+		"metal": [32, 32],
+		"metal3": [32, 32],
+		"leadsolder": [16, 16]
 	},
 	"textures": {
-		"brass.png": "",
-		"brass4.png": "",
-		"tin.png": ""
+		"leadsolder": "game:block/metal/ingot/silversolder"
 	},
 	"elements": [
 		{
 			"name": "metal",
-			"from": [3.6, 0, -0.075],
-			"to": [3.6, 0, -0.075],
-			"rotationOrigin": [3.6, 0, -0.075],
+			"from": [4.025, 0, 1],
+			"to": [4.025, 0, 1],
+			"rotationOrigin": [4.025, 0, 1],
 			"children": [
 				{
 					"name": "metal",
 					"from": [0, 0, 0],
 					"to": [0, 0, 0],
 					"rotationOrigin": [0, 0, 0],
-					"faces": {
-						"north": {
-							"texture": "#brass.png",
-							"uv": [0, 0, 0.5, 0.5],
-							"autoUv": false,
-							"snapUv": false
-						},
-						"east": {
-							"texture": "#brass.png",
-							"uv": [0, 0, 0.5, 0.5],
-							"autoUv": false,
-							"snapUv": false
-						},
-						"south": {
-							"texture": "#brass.png",
-							"uv": [0, 0, 0.5, 0.5],
-							"autoUv": false,
-							"snapUv": false
-						},
-						"west": {
-							"texture": "#brass.png",
-							"uv": [0, 0, 0.5, 0.5],
-							"autoUv": false,
-							"snapUv": false
-						},
-						"up": {
-							"texture": "#brass.png",
-							"uv": [0, 0, 0.5, 0.5],
-							"autoUv": false,
-							"snapUv": false
-						},
-						"down": {
-							"texture": "#brass.png",
-							"uv": [0, 0, 0.5, 0.5],
-							"autoUv": false,
-							"snapUv": false
-						}
-					}
+					"faces": {}
 				},
 				{
 					"name": "reedg",
@@ -76,37 +37,37 @@
 							"rotationOrigin": [0, 0, 0],
 							"faces": {
 								"north": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"east": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"south": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"west": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"up": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"down": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
@@ -120,38 +81,38 @@
 							"rotationOrigin": [0, 0, 0.875],
 							"faces": {
 								"north": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 3.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"east": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"south": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 3.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"west": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"up": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 3.5, 0.5],
+									"texture": "#metal",
+									"uv": [0, 0, 10, 2],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"down": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 3.5, 0.5],
+									"texture": "#metal",
+									"uv": [0, 0, 10, 2],
 									"autoUv": false,
 									"snapUv": false
 								}
@@ -164,37 +125,37 @@
 							"rotationOrigin": [-3.65, 0.025, 0.875],
 							"faces": {
 								"north": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"east": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 1, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"south": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"west": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 1, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"up": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 1],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"down": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 1],
 									"autoUv": false,
 									"snapUv": false
@@ -208,38 +169,38 @@
 							"rotationOrigin": [-3.4475, 0.725, 0.2275],
 							"faces": {
 								"north": {
-									"texture": "#tin.png",
-									"uv": [0, 0, 0.5, 0.5],
+									"texture": "#leadsolder",
+									"uv": [1, 1, 1.5, 1.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"east": {
-									"texture": "#tin.png",
-									"uv": [0, 0, 0.5, 0.5],
+									"texture": "#leadsolder",
+									"uv": [1, 1, 1.5, 1.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"south": {
-									"texture": "#tin.png",
-									"uv": [0, 0, 0.5, 0.5],
+									"texture": "#leadsolder",
+									"uv": [1, 1, 1.5, 1.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"west": {
-									"texture": "#tin.png",
-									"uv": [0, 0, 0.5, 0.5],
+									"texture": "#leadsolder",
+									"uv": [1, 1, 1.5, 1.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"up": {
-									"texture": "#tin.png",
-									"uv": [0, 0, 0.5, 0.5],
+									"texture": "#leadsolder",
+									"uv": [1, 1, 1.5, 1.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"down": {
-									"texture": "#tin.png",
-									"uv": [0, 0, 0.5, 0.5],
+									"texture": "#leadsolder",
+									"uv": [1, 1, 1.5, 1.5],
 									"autoUv": false,
 									"snapUv": false
 								}
@@ -252,38 +213,38 @@
 							"rotationOrigin": [0.2, 0, 0.875],
 							"faces": {
 								"north": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"east": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"south": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"west": {
-									"texture": "#brass.png",
+									"texture": "#metal",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"up": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 0.5, 0.5],
+									"texture": "#metal",
+									"uv": [10, 1.2, 10.4, 2.2],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"down": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 0.5, 0.5],
+									"texture": "#metal",
+									"uv": [10, 1.2, 10.4, 2.2],
 									"autoUv": false,
 									"snapUv": false
 								}
@@ -298,88 +259,44 @@
 					"rotationOrigin": [0, 0, 0],
 					"children": [
 						{
-							"name": "housing",
-							"from": [0, 0, 0],
-							"to": [0, 0, 0],
-							"rotationOrigin": [0, 0, 0],
-							"faces": {
-								"north": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 0.5, 0.5],
-									"autoUv": false,
-									"snapUv": false
-								},
-								"east": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 0.5, 0.5],
-									"autoUv": false,
-									"snapUv": false
-								},
-								"south": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 0.5, 0.5],
-									"autoUv": false,
-									"snapUv": false
-								},
-								"west": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 0.5, 0.5],
-									"autoUv": false,
-									"snapUv": false
-								},
-								"up": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 0.5, 0.5],
-									"autoUv": false,
-									"snapUv": false
-								},
-								"down": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 0.5, 0.5],
-									"autoUv": false,
-									"snapUv": false
-								}
-							}
-						},
-						{
 							"name": "railS",
 							"from": [-3, 0, 0.75],
 							"to": [1.25, 0.5, 1.5],
 							"rotationOrigin": [0, 0, 2],
 							"faces": {
 								"north": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 4, 0.5],
+									"texture": "#metal3",
+									"uv": [0, 0, 11, 2],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"east": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"south": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 4, 0.5],
+									"texture": "#metal3",
+									"uv": [0, 0, 11, 2],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"west": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"up": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 4, 0.5],
+									"texture": "#metal3",
+									"uv": [-0.35294, 0, -1, 0],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"down": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 4, 0.5],
+									"texture": "#metal3",
+									"uv": [0, 3, 11, 5],
 									"autoUv": false,
 									"snapUv": false
 								}
@@ -392,37 +309,37 @@
 							"rotationOrigin": [0, 0, 0.25],
 							"faces": {
 								"north": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 4, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"east": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"south": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 4, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"west": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"up": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 4, 0.5],
+									"texture": "#metal3",
+									"uv": [0, 0, -0.47059, 0],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"down": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 4, 0.5],
 									"autoUv": false,
 									"snapUv": false
@@ -436,37 +353,37 @@
 							"rotationOrigin": [4, 0, 1.75],
 							"faces": {
 								"north": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"east": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 2, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"south": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 0.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"west": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 2, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"up": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 0.5, 2],
+									"texture": "#metal3",
+									"uv": [0, 0, -0.05882, 0],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"down": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 0.5, 2],
 									"autoUv": false,
 									"snapUv": false
@@ -480,37 +397,37 @@
 							"rotationOrigin": [-0.5, 0, 2],
 							"faces": {
 								"north": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 1, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"east": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 2.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"south": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 1, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"west": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 2.5, 0.5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"up": {
-									"texture": "#brass.png",
-									"uv": [0, 0, 1, 2.5],
+									"texture": "#metal3",
+									"uv": [0, 0, 2, 5],
 									"autoUv": false,
 									"snapUv": false
 								},
 								"down": {
-									"texture": "#brass.png",
+									"texture": "#metal3",
 									"uv": [0, 0, 1, 2.5],
 									"autoUv": false,
 									"snapUv": false

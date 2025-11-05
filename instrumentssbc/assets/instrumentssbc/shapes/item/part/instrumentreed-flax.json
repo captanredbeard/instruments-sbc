@@ -9,49 +9,50 @@
 	},
 	"textures": {
 		"stem": "game:block/plant/reeds/stem",
-		"handle": "game:item/tool/material/handle",
+		"handle": "game:block/wood/oak",
 		"string": "game:item/tool/material/string"
 	},
 	"elements": [
 		{
-			"name": "flaxreed",
-			"from": [-3.075, -3.95, -6],
-			"to": [-3.075, -3.95, -6],
-			"rotationOrigin": [-3.075, -3.95, -6],
+			"name": "bone",
+			"from": [3, -0.375, 0.75],
+			"to": [3, -0.375, 0.75],
+			"rotationOrigin": [3, -0.375, 0.75],
+			"rotationZ": -90,
 			"children": [
 				{
 					"name": "reed",
-					"from": [3.075, 3.95, 6],
-					"to": [3.15, 6.2, 6.75],
-					"rotationOrigin": [5.95, 7.2, 7],
+					"from": [-0.845, -0.25, -0.7],
+					"to": [-0.77, 2, 0.05],
+					"rotationOrigin": [0.75, 6.75, 0.525],
 					"faces": {
 						"north": {
 							"texture": "#stem",
-							"uv": [0, 0, 0.075, 2.25],
+							"uv": [0, 0, 2, 2.25],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"east": {
 							"texture": "#stem",
-							"uv": [0, 14, 8, 30],
+							"uv": [0, 1.075, 8, 24.075],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"south": {
 							"texture": "#stem",
-							"uv": [0, 0, 0.075, 2.25],
+							"uv": [0, 0, 2, 2.25],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"west": {
 							"texture": "#stem",
-							"uv": [0, 14, 8, 30],
+							"uv": [0, 1.075, 8, 24.075],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"up": {
 							"texture": "#stem",
-							"uv": [0, 0, 0.075, 0.75],
+							"uv": [0, 0, 2, 0.75],
 							"autoUv": false,
 							"snapUv": false
 						},
@@ -65,37 +66,37 @@
 				},
 				{
 					"name": "binding",
-					"from": [2.925, 3.2, 5.975],
-					"to": [3.325, 4, 6.775],
-					"rotationOrigin": [3.075, 5.75, 7.95],
+					"from": [-1.01, -1, -0.725],
+					"to": [-0.61, -0.2, 0.075],
+					"rotationOrigin": [-2.125, 5.3, 1.475],
 					"faces": {
 						"north": {
 							"texture": "#string",
-							"uv": [11, 1, 15, 9],
+							"uv": [11, 2, 15, 10],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"east": {
 							"texture": "#string",
-							"uv": [1, 1, 9, 9],
+							"uv": [1, 2, 9, 10],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"south": {
 							"texture": "#string",
-							"uv": [5, 1, 9, 9],
+							"uv": [5, 2, 9, 10],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"west": {
 							"texture": "#string",
-							"uv": [7, 1, 15, 9],
+							"uv": [7, 2, 15, 10],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"up": {
 							"texture": "#string",
-							"uv": [7, 6, 11, 14],
+							"uv": [7, 7, 11, 15],
 							"autoUv": false,
 							"snapUv": false
 						}
@@ -103,43 +104,43 @@
 				},
 				{
 					"name": "cork",
-					"from": [2.7, 1.2, 5.95],
-					"to": [3.55, 3.2, 6.8],
-					"rotationOrigin": [3.075, 4.725, 7.95],
+					"from": [-1.235, -3, -0.75],
+					"to": [-0.385, -1, 0.1],
+					"rotationOrigin": [-2.125, 4.275, 1.475],
 					"faces": {
 						"north": {
 							"texture": "#handle",
-							"uv": [3, 9, 9, 20],
+							"uv": [0, 11, 8, 27],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"east": {
 							"texture": "#handle",
-							"uv": [3, 9, 9, 20],
+							"uv": [8, 11, 16, 27],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"south": {
 							"texture": "#handle",
-							"uv": [3, 9, 9, 20],
+							"uv": [16, 11, 24, 27],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"west": {
 							"texture": "#handle",
-							"uv": [3, 9, 9, 20],
+							"uv": [24, 11, 32, 27],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"up": {
 							"texture": "#handle",
-							"uv": [0, 0, 4, 4],
+							"uv": [8, 3, 16, 11],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"down": {
 							"texture": "#handle",
-							"uv": [0, 0, 4, 4],
+							"uv": [0, 3, 8, 11],
 							"autoUv": false,
 							"snapUv": false
 						}
@@ -147,9 +148,9 @@
 				},
 				{
 					"name": "reedend",
-					"from": [3.075, 6.2, 6.075],
-					"to": [3.15, 6.275, 6.675],
-					"rotationOrigin": [5.95, 9.95, 7],
+					"from": [-0.845, 2, -0.625],
+					"to": [-0.77, 2.075, -0.025],
+					"rotationOrigin": [0.775, 9.5, 0.525],
 					"faces": {
 						"north": {
 							"texture": "#stem",
@@ -159,7 +160,7 @@
 						},
 						"east": {
 							"texture": "#stem",
-							"uv": [0.8, 13.925, 7.2, 14],
+							"uv": [0.8, 0, 7.2, 1.075],
 							"autoUv": false,
 							"snapUv": false
 						},
@@ -171,12 +172,13 @@
 						},
 						"west": {
 							"texture": "#stem",
-							"uv": [0.8, 13.925, 7.2, 15],
+							"uv": [0.8, 0, 7.2, 1.075],
 							"autoUv": false,
 							"snapUv": false
 						},
 						"up": {
 							"texture": "#stem",
+							"uv": [0, 0, 2, 0],
 							"autoUv": false,
 							"snapUv": false
 						}
