@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Vintagestory.API.Common;
 
-namespace instrumentssbc.src.ItemTypes
+namespace instrumentssbc.src
 {
     #region guitars
     public class BanjoItem : InstrumentItem

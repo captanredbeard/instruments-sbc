@@ -5,7 +5,7 @@ using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Config;
 using Vintagestory.API.Server;
-using instrumentssbc.src.ItemTypes;
+using instrumentssbc.src;
 
 namespace instrumentssbc
 {
@@ -19,9 +19,8 @@ namespace instrumentssbc
            
             var modid = Mod.Info.ModID;
 
-            api.RegisterItemClass(modid + ":precussionMalletClass",typeof(PrecussionMallet));
-
             api.RegisterItemClass(modid+ ":banjoClass", typeof(BanjoItem));
+            
             api.RegisterItemClass(modid+":bassGuitarClass", typeof(BassGuitarItem));
             api.RegisterItemClass(modid+ ":electricBassGuitarClass", typeof(ElectricBassGuitarItem));
             api.RegisterItemClass(modid+ ":leadGuitarClass", typeof(LeadGuitarItem));

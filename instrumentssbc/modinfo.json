@@ -8,7 +8,7 @@
     "Beeblebrox"
   ],
   "description": "Fills out the instrument set of the Instruments mod and adds a special new instrument backpack",
-  "version": "0.2.1",
+  "version": "0.2.0",
   "dependencies": {
     "game": "1.21.0",
     "vsinstrumentsbase": "2.0.5"
