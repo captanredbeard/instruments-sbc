@@ -1,0 +1,189 @@
+{
+	"editor": {},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"stem": [8, 64],
+		"handle": [32, 32],
+		"string": [16, 16]
+	},
+	"textures": {
+		"stem": "game:block/plant/reeds/stem",
+		"handle": "game:item/tool/material/handle",
+		"string": "game:item/tool/material/string"
+	},
+	"elements": [
+		{
+			"name": "flaxreed",
+			"from": [-3.075, -3.95, -6],
+			"to": [-3.075, -3.95, -6],
+			"rotationOrigin": [-3.075, -3.95, -6],
+			"children": [
+				{
+					"name": "reed",
+					"from": [3.075, 3.95, 6],
+					"to": [3.15, 6.2, 6.75],
+					"rotationOrigin": [5.95, 7.2, 7],
+					"faces": {
+						"north": {
+							"texture": "#stem",
+							"uv": [0, 0, 0.075, 2.25],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"east": {
+							"texture": "#stem",
+							"uv": [0, 14, 8, 30],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"south": {
+							"texture": "#stem",
+							"uv": [0, 0, 0.075, 2.25],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"west": {
+							"texture": "#stem",
+							"uv": [0, 14, 8, 30],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"up": {
+							"texture": "#stem",
+							"uv": [0, 0, 0.075, 0.75],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"down": {
+							"texture": "#stem",
+							"uv": [0, 0, 0.075, 0.75],
+							"autoUv": false,
+							"snapUv": false
+						}
+					}
+				},
+				{
+					"name": "binding",
+					"from": [2.925, 3.2, 5.975],
+					"to": [3.325, 4, 6.775],
+					"rotationOrigin": [3.075, 5.75, 7.95],
+					"faces": {
+						"north": {
+							"texture": "#string",
+							"uv": [11, 1, 15, 9],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"east": {
+							"texture": "#string",
+							"uv": [1, 1, 9, 9],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"south": {
+							"texture": "#string",
+							"uv": [5, 1, 9, 9],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"west": {
+							"texture": "#string",
+							"uv": [7, 1, 15, 9],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"up": {
+							"texture": "#string",
+							"uv": [7, 6, 11, 14],
+							"autoUv": false,
+							"snapUv": false
+						}
+					}
+				},
+				{
+					"name": "cork",
+					"from": [2.7, 1.2, 5.95],
+					"to": [3.55, 3.2, 6.8],
+					"rotationOrigin": [3.075, 4.725, 7.95],
+					"faces": {
+						"north": {
+							"texture": "#handle",
+							"uv": [3, 9, 9, 20],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"east": {
+							"texture": "#handle",
+							"uv": [3, 9, 9, 20],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"south": {
+							"texture": "#handle",
+							"uv": [3, 9, 9, 20],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"west": {
+							"texture": "#handle",
+							"uv": [3, 9, 9, 20],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"up": {
+							"texture": "#handle",
+							"uv": [0, 0, 4, 4],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"down": {
+							"texture": "#handle",
+							"uv": [0, 0, 4, 4],
+							"autoUv": false,
+							"snapUv": false
+						}
+					}
+				},
+				{
+					"name": "reedend",
+					"from": [3.075, 6.2, 6.075],
+					"to": [3.15, 6.275, 6.675],
+					"rotationOrigin": [5.95, 9.95, 7],
+					"faces": {
+						"north": {
+							"texture": "#stem",
+							"uv": [0, 0, 0.075, 0.075],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"east": {
+							"texture": "#stem",
+							"uv": [0.8, 13.925, 7.2, 14],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"south": {
+							"texture": "#stem",
+							"uv": [0, 0, 0.075, 0.075],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"west": {
+							"texture": "#stem",
+							"uv": [0.8, 13.925, 7.2, 15],
+							"autoUv": false,
+							"snapUv": false
+						},
+						"up": {
+							"texture": "#stem",
+							"autoUv": false,
+							"snapUv": false
+						}
+					}
+				}
+			]
+		}
+	],
+	"animations": []
+}
