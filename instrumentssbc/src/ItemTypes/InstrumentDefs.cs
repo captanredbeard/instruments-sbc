@@ -221,7 +221,7 @@ namespace instrumentssbc.src.ItemTypes
         public override void OnLoaded(ICoreAPI api)
         {
             base.OnLoaded(api);
-            instrument = "zmichigh";
+            instrument = "michigh";
             animation = "holdinglanternrighthand";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
         }

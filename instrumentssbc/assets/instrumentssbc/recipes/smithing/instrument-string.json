@@ -3,7 +3,7 @@
     "type": "item",
     "code": "game:ingot-*",
     "name": "metal",
-    "allowedVariants": [ "brass","steel" ]
+    "allowedVariants": [ "brass","steel","cupronickel" ]
   },
   "pattern": [
     [
@@ -12,8 +12,7 @@
       "#_#_#",
       "#_#_#",
       "#_###"
-    ],
-    
+    ]
   ],
   "name": "Instrument Strings",
   "output": {

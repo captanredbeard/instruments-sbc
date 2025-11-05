@@ -8,8 +8,7 @@
   "textureSizes": {
   },
   "textures": {
-    "map-blank": "C:/Users/Daniel/Desktop/VSLauncher/GameVersions/1.21.5/assets/survival/textures/item/utility/map-blank",
-    "schematic-glider": "C:/Users/Daniel/source/repos/Vintage Story/instrumentssbc/instrumentssbc/assets/instrumentssbc/textures/item/schematics/guitar.png"
+    //"map-blank": "game:item/utility/map-blank"
   },
   "elements": [
     {

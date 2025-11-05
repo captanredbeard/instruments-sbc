@@ -13,7 +13,7 @@
       <Private>false</Private>
     </Reference>
     <Reference Include="vsinstruments_base">
-      <HintPath>..\..\..\..\..\AppData\Roaming\VintagestoryData\Mods\vsinstrumentsbase_2.0.5\vsinstruments_base.dll</HintPath>
+      <HintPath>C:\Users\Daniel\AppData\Roaming\VintagestoryData\Mods\mod\vsinstruments_base.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VSSurvivalMod">
@@ -48,6 +48,7 @@
   <Folder Include="assets\instrumentssbc\recipes\grid\brass\" />
   <Folder Include="assets\instrumentssbc\shapes\block\abcbell\" />
   <Folder Include="assets\instrumentssbc\shapes\item\schematic\" />
+  <Folder Include="assets\instruments\sounds\bellblock\" />
   <Folder Include="assets\instrumentssbc\textures\item\instrument\" />
   <Folder Include="assets\instruments\sounds\abcbell\oldsounds\" />
 </ItemGroup>

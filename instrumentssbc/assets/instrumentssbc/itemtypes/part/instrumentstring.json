@@ -5,7 +5,7 @@
   "variantgroups": [
     {
       "code": "material",
-      "states": ["brass", "copper", "steel", "flax"]
+      "states": ["brass", "cupronickel", "steel", "flax"]
     }
   ],
   "shape": { "base": "item/mboxcomb" },

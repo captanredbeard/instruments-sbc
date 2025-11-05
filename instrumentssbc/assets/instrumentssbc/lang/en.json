@@ -10,7 +10,6 @@
   "item-flute-gold": " Golden Flute",
   "item-leadguitar": "Lead Guitar",
   "item-nylonguitar": "Nylon Guitar",
-  "item-ocarina": "Ocarina",
   "item-overdriveguitar": "Overdrive Guitar",
   "item-squarewave": "Square Wave Synth",
   "item-spacesynth": "Space Synth",
@@ -23,6 +22,42 @@
   "item-rockorgan": "Rock Organ",
   "item-xylophone": "Xylophone",
 
+  //Harmonica Types
+  "item-harmonica-zinc": "Zinc Harmonica",
+  "item-harmonica-brass": "Brass Harmonica",
+  "item-harmonica-silver": "Silver Harmonica",
+  "item-harmonica-gold": "Golden Harmonica",
+
+  //Tool Molds
+  "block-toolmold-blue-raw-instrumentstring": "Raw blue clay instrument string Mold",
+  "block-toolmold-fire-raw-instrumentstring": "Raw fire clay instrument string Mold",
+  "block-toolmold-red-raw-instrumentstring": "Raw red clay instrument string Mold",
+  "block-toolmold-blue-fired-instrumentstring": "Dark brown ceramic instrument string Mold",
+  "block-toolmold-black-fired-instrumentstring": "Black ceramic instrument string Mold",
+  "block-toolmold-brown-fired-instrumentstring": "Brown ceramic instrument string Mold",
+  "block-toolmold-cream-fired-instrumentstring": "Cream ceramic instrument string Mold",
+  "block-toolmold-fire-fired-instrumentstring": "Fireclay ceramic instrument string Mold",
+  "block-toolmold-gray-fired-instrumentstring": "Gray ceramic instrument string Mold",
+  "block-toolmold-orange-fired-instrumentstring": "Orange ceramic instrument string Mold",
+  "block-toolmold-red-fired-instrumentstring": "Red ceramic instrument string Mold",
+  "block-toolmold-tan-fired-instrumentstring": "Tan ceramic instrument string Mold",
+
+  //Ocarina
+  "item-ocarina-blue-unfinished": "Incomplete blue clay Ocarina",
+  "item-ocarina-fire-unfinished": "Incomplete fire clay Ocarina",
+  "item-ocarina-red-unfinished": "Incomplete red clay Ocarina",
+  "item-ocarina-blue-raw": "Raw blue clay Ocarina",
+  "item-ocarina-fire-raw": "Raw fire clay Ocarina",
+  "item-ocarina-red-raw": "Raw red clay Ocarina",
+  "item-ocarina-blue-fired": "Dark brown ceramic Ocarina",
+  "item-ocarina-black-fired": "Black ceramic Ocarina",
+  "item-ocarina-brown-fired": "Brown ceramic Ocarina",
+  "item-ocarina-cream-fired": "Cream ceramic Ocarina",
+  "item-ocarina-fire-fired": "Fireclay ceramic Ocarina",
+  "item-ocarina-gray-fired": "Gray ceramic Ocarina",
+  "item-ocarina-orange-fired": "Orange ceramic Ocarina",
+  "item-ocarina-red-fired": "Red ceramic Ocarina",
+  "item-ocarina-tan-fired": "Tan ceramic Ocarina",
 
   //Schematics
   "item-schematic-instrumentssbc-woodwind": "Woodwind Instrument Schematic",
@@ -30,9 +65,10 @@
   "item-schematic-instrumentssbc-guitar": "Guitar Instrument Schematic",
   "item-schematic-instrumentssbc-precussion": "Precussion Instrument Schematic",
   "item-schematic-instrumentssbc-brass": "Brass Instrument Schematic",
+  "item-schematic-instrumentssbc-electric": "Jonas Instrument Schematic",
 
   //Parts
-  "item-instrumentreed-flax": "Woodwind Reed",
+  "item-instrumentreed-reed": "Woodwind Reed",
   "item-instrumentreed-brass": "Brass Reed",
   "item-instrumentreed-steel": "Steel Reed",
 
@@ -44,5 +80,12 @@
   "item-harmonicacomb-zinc": "Zinc Harmonica Comb",
   "item-harmonicacomb-brass": "Brass Harmonica Comb",
   "item-harmonicacomb-silver": "Silver Harmonica Comb",
-  "item-harmonicacomb-gold": "Golden Harmonica Comb"
+  "item-harmonicacomb-gold": "Golden Harmonica Comb",
+
+  "item-precussionmallet-flax": "Soft precusion mallet",
+  "item-precussionmallet-wood": "Wooden precusion mallet",
+  "item-precussionmallet-brass": "Brass precusion mallet",
+  "item-precussionmallet-steel": "Steel precusion mallet",
+
+  "item-pianokeys": "Precussion Keys"
 }

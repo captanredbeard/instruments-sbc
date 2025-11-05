@@ -20,7 +20,7 @@
     },
     "P": {
       "type": "item",
-      "code": "game:planks-*",
+      "code": "game:plank-*",
       "quantity": 2
     },
     "S": {
