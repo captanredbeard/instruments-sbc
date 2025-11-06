@@ -2,7 +2,7 @@
   "code": "xylophone",
   "class": "instrumentssbc:xylophoneClass",
   "behaviors": [],
-  "shape": { "base": "item/xylophone" },
+  "shape": { "base": "item/instrument/xylophone" },
   "attributes": {
     "rackable": true,
     "toolrackTransform": {
