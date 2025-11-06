@@ -2,19 +2,105 @@
   "code": "oboe",
   "class": "instrumentssbc:oboeClass",
   "behaviors": [],
-  "shape": { "base": "item/oboe" },
+  "shape": { "base": "item/instrument/oboe" },
+  "textures": {
+    
+    "metal": { "base": "game:block/metal/ingot/{metal}" }
+  },
   "attributes": {
     "rackable": true,
     "toolrackTransform": {
-      "rotation": { "z": 180 },
-      "translation": { "y": -0.4 },
-      "scale": 1.25
+      "translation": {
+        "y": -0.5
+      },
+      "rotation": {
+        "z": 180
+      }
     }
   },
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [ "silver", "gold", "meteoriciron", "bismuth", "blackbronze", "brass", "cupronickel" ]
+    }
+  ],
   "creativeinventory": {
     "general": [ "*" ],
     "items": [ "*" ],
     "instruments-sbc": [ "*" ]
+  },
+  "materialDensity": 2000,
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -48,
+      "y": 134,
+      "z": 171
+    },
+    "origin": {
+      "x": 0.53,
+      "y": 0.2,
+      "z": 0.4
+    },
+    "scale": 2.5
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0.28,
+      "y": 0.2,
+      "z": 0
+    },
+    "rotation": {
+      "x": 86,
+      "y": 180,
+      "z": -88
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 2.15
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": -0,
+      "z": 0.5
+    },
+    "scale": 4
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.9,
+      "y": -0.05,
+      "z": -0.78
+    },
+    "rotation": {
+      "x": 85,
+      "y": 0,
+      "z": 2
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 0.62
   },
   "storageFlags": 2049,
   "heldTpUseAnimation": "holdbothhandslarge"
