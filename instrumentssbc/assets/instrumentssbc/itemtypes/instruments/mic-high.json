@@ -2,7 +2,7 @@
   "code": "mic-high",
   "class": "instrumentssbc:micHighClass",
   "behaviors": [],
-  "shape": { "base": "item/mic-high" },
+  "shape": { "base": "item/instrument/microphone" },
   "attributes": {
     "rackable": true,
     "toolrackTransform": {
