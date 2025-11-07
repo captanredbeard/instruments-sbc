@@ -1,25 +1,42 @@
 {
   "game:tabname-instruments-sbc": "Instruments: Starbound Complete",
+
+  //Bags
   "item-instrumentbag-large": "Large Instrument Bag",
   "item-instrumentbag-small": "Small Instrument Bag",
+
+
   "item-banjo": "Banjo",
+  "itemdesc-banjo": "this is a description",
   "item-bassguitar": "Bass Guitar",
-  "item-brightpiano": "Bright Piano",
-  "item-electricbassguitar": "Electric Bass Guitar",
-  "item-flute-silver": "Silver Flute",
-  "item-flute-gold": " Golden Flute",
   "item-leadguitar": "Lead Guitar",
   "item-nylonguitar": "Nylon Guitar",
   "item-overdriveguitar": "Overdrive Guitar",
   "item-squarewave": "Square Wave Synth",
+  "item-electricbassguitar": "Electric Bass Guitar",
+
+  //Oboe
+  "item-oboe-gold": "Golden Oboe",
+  "item-oboe-silver": "Silver Oboe",
+  "item-oboe-meteoriciron": "Meteoric Iron Oboe",
+  "item-oboe-brass": "Brass Oboe",
+  "item-oboe-bismuth": "Bismuth Oboe",
+  "item-oboe-blackbronze": "Black Bronze Oboe",
+  "item-oboe-cupronickel": "Cupronickel Oboe",
+
+  "item-reedorgan": "Reed Organ",
+  "item-rockorgan": "Rock Organ",
+  "item-brightpiano": "Bright Piano",
+
+  "item-flute-silver": "Silver Flute",
+  "item-flute-gold": " Golden Flute",
   "item-spacesynth": "Space Synth",
   "item-hammerdulcimer": "Hammer Dulcimer",
   "item-harmonica": "Harmonica",
   "item-koto": "Koto",
   "item-mic-high": "High Pitch Microphone",
-  "item-oboe": "Oboe",
-  "item-reedorgan": "Reed Organ",
-  "item-rockorgan": "Rock Organ",
+
+
   "item-xylophone": "Xylophone",
 
   //Harmonica Types
@@ -27,6 +44,7 @@
   "item-harmonica-brass": "Brass Harmonica",
   "item-harmonica-silver": "Silver Harmonica",
   "item-harmonica-gold": "Golden Harmonica",
+  "itemdesc-harmonica-*": "",
 
   //Tool Molds
   "block-toolmold-blue-raw-instrumentstring": "Raw blue clay instrument string Mold",
@@ -58,6 +76,9 @@
   "item-ocarina-orange-fired": "Orange ceramic Ocarina",
   "item-ocarina-red-fired": "Red ceramic Ocarina",
   "item-ocarina-tan-fired": "Tan ceramic Ocarina",
+  "itemdesc-ocarina-*-fired": "Maybe there's an \"Ocarina of Time\"",
+  "itemdesc-ocarina-*-raw": "Ready to be fired in a kiln",
+  "itemdesc-ocarina-*-unfinished": "Must be carved with a knife before firing",
 
   //Schematics
   "item-schematic-instrumentssbc-woodwind": "Woodwind Instrument Schematic",
@@ -67,6 +88,11 @@
   "item-schematic-instrumentssbc-brass": "Brass Instrument Schematic",
   "item-schematic-instrumentssbc-electric": "Jonas Instrument Schematic",
 
+  "itemdesc-schematic-instrumentssbc-woodwind": "This schematic appears to contain details for many reed based Instruments",
+  "itemdesc-schematic-instrumentssbc-string": "This schematic appears to contain details for many stringed Instruments",
+  "itemdesc-schematic-instrumentssbc-precussion": "This schematic appears to contain details for many rood  Instruments",
+  "itemdesc-schematic-instrumentssbc-brass": "Time for a big brass band concert",
+  "itemdesc-schematic-instrumentssbc-electric": "This schematic from Jonas appears to contain details involving the creation of various complex instruments.",
   //Parts
   "item-instrumentreed-reed": "Woodwind Reed",
   "item-instrumentreed-brass": "Brass Reed",
