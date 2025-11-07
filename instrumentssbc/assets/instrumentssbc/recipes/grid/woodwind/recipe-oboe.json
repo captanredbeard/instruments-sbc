@@ -1,6 +1,6 @@
 [
   {
-    "ingredientPattern": "BR_,KP_,IP_",
+    "ingredientPattern": "BR,KP,IP",
     "width": 2,
     "height": 3,
     "ingredients": {
@@ -25,7 +25,8 @@
       "I": {
         "type": "item",
         "code": "game:ingot-*",
-        "name": "metal"
+        "name": "metal",
+        "allowedVariants": [ "silver", "gold", "meteoriciron", "bismuth", "blackbronze", "brass", "cupronickel" ]
       }
     },
     "output": {
@@ -34,7 +35,7 @@
     }
   },
   {
-    "ingredientPattern": "RB_,PK_,PI_",
+    "ingredientPattern": "RB,PK,PI",
     "width": 2,
     "height": 3,
     "ingredients": {
@@ -59,7 +60,8 @@
       "I": {
         "type": "item",
         "code": "game:ingot-*",
-        "name": "metal"
+        "name": "metal",
+        "allowedVariants": [ "silver", "gold", "meteoriciron", "bismuth", "blackbronze", "brass", "cupronickel" ]
       }
     },
     "output": {
