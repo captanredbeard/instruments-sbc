@@ -1,7 +1,33 @@
 {
   "code": "oboe",
   "class": "instrumentssbc:oboeClass",
-  "behaviors": [],
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties":
+      {
+        "layout": "WallHalves",
+        "wallOffY": 1
+      },
+      "ctrlKey": true,
+      "selectionBox": {
+        "x1": 0,
+        "y1": 0,
+        "z1": 0,
+        "x2": 1,
+        "y2": 0.1,
+        "z2": 1
+      },
+      "collisionBox": {
+        "x1": 0,
+        "y1": 0,
+        "z1": 0,
+        "x2": 0,
+        "y2": 0,
+        "z2": 0
+      }
+    }
+  ],
   "shape": { "base": "item/instrument/oboe" },
   "textures": {
     
@@ -15,6 +41,18 @@
       },
       "rotation": {
         "z": 180
+      }
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0.5,
+        "y": 0.13,
+        "z": 0.224
+      },
+      "rotation": {
+        "x": 18,
+        "y": 0,
+        "z": -90
       }
     }
   },
