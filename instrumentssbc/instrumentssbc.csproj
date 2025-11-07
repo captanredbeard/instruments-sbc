@@ -5,16 +5,13 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
     <Nullable>enable</Nullable>
+	<LibDir>$(ProjectDir)\libs</LibDir>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="VintagestoryAPI">
       <HintPath>$(VINTAGE_STORY_1_21)/VintagestoryAPI.dll</HintPath>
       <Private>false</Private>
-    </Reference>
-    <Reference Include="vsinstruments_base">
-      <HintPath>C:\Users\Daniel\AppData\Roaming\VintagestoryData\Mods\mod\vsinstruments_base.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="VSSurvivalMod">
       <HintPath>$(VINTAGE_STORY_1_21)/Mods/VSSurvivalMod.dll</HintPath>
@@ -28,6 +25,11 @@
       <HintPath>$(VINTAGE_STORY_1_21)/Mods/VSCreativeMod.dll</HintPath>
       <Private>False</Private>
     </Reference>
+
+	  <Reference Include="InstrumentsBase">
+		  <HintPath>$(ProjectDir)/libs/vsinstruments_base.dll</HintPath>
+		  <Private>False</Private>
+	  </Reference>
   </ItemGroup>
 
 <ItemGroup>
