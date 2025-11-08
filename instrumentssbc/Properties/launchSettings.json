@@ -11,7 +11,7 @@
       "commandName": "Executable",
       "executablePath": "dotnet",
       "commandLineArgs": "\"$(VINTAGE_STORY_1_21)/VintagestoryServer.dll\" --tracelog --addModPath \"$(ProjectDir)/bin/$(Configuration)/Mods\" --addOrigin \"$(ProjectDir)/assets\"",
-      "workingDirectory": "$(VINTAGE_STORY_1_21)",
+      "workingDirectory": "$(VINTAGE_STORY)",
       "nativeDebugging": true
     }
   }
