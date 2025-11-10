@@ -5,7 +5,7 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
     <Nullable>enable</Nullable>
-	<LibDir>$(ProjectDir)\libs</LibDir>
+	<ExternalLibDir>$(ProjectDir)\external</ExternalLibDir>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,9 +25,8 @@
       <HintPath>$(VINTAGE_STORY)/Mods/VSCreativeMod.dll</HintPath>
       <Private>False</Private>
     </Reference>
-
 	  <Reference Include="InstrumentsBase">
-		  <HintPath>$(ProjectDir)/libs/vsinstruments_base.dll</HintPath>
+		  <HintPath>$(ProjectDir)/external/vsinstruments_base.dll</HintPath>
 		  <Private>False</Private>
 	  </Reference>
   </ItemGroup>
@@ -53,6 +52,11 @@
   <Folder Include="assets\instruments\sounds\bellblock\" />
   <Folder Include="assets\instrumentssbc\textures\item\instrument\" />
   <Folder Include="assets\instruments\sounds\abcbell\oldsounds\" />
+</ItemGroup>
+
+<ItemGroup>
+  
+  <EmbeddedResource Remove="external\**" />
 </ItemGroup>
 
 <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
