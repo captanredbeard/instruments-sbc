@@ -31,8 +31,7 @@
 					"z2": 1
 				}
 			}
-		},
-		{ "name": "RightClickPickup" }
+		}
 	],
 	"attributes": {
 		"rackable": true,

@@ -17,5 +17,23 @@
     "instruments-sbc": [ "*" ]
   },
   "storageFlags": 2049,
-  "heldTpUseAnimation": "holdbothhandslarge"
+  "heldTpUseAnimation": "holdbothhandslarge",
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 90,
+      "y": -45,
+      "z": -25
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.2,
+      "z": 0.52
+    },
+    "scale": 1.92
+  }
 }
