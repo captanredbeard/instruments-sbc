@@ -12,7 +12,8 @@
     "base": "item/part/wirespool"
   },
   "textures": {
-    "metal": { "base": "game:item/resource/plate/{metal}" }
+    "metal": { "base": "game:block/metal/ingot/{metal}" },
+    "metal3":{ "base": "game:block/metal/riveted/{metal}"}
   },
   "attributes": {
     "shelvable": true,
