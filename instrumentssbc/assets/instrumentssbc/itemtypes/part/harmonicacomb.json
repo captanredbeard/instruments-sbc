@@ -8,7 +8,9 @@
       "states": [ "zinc", "brass", "silver", "gold" ]
     }
   ],
-  "shape": { "base": "item/part/harmonicacomb" },
+  "shape": {
+    "base": "item/part/harmonicacomb"
+  },
   "textures": {
     "metal": { "base": "game:item/resource/plate/{metal}" }
   },
