@@ -2,7 +2,8 @@
   "code": "pianokeys",
   "behaviors": [
   ],
-  "shape": { "base": "item/mboxcomb" },
+  "shape": { "base": "item/part/pianokeys" },
+  
   "attributes": {
     "shelvable": true,
     "displaycaseable": true,
