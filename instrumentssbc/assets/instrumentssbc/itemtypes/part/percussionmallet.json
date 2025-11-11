@@ -3,12 +3,6 @@
   "classbyType": {
     "@(precussionmallet-brass|precussionmallet-steel)": "instrumentssbc:precussionMalletClass"
   },
-  "attributes": {
-    "heldItemPitchFollow": 0.9,
-    "handbook": {
-      "groupBy": [ "precussionmallet-*" ]
-    }
-  },
   "variantgroups": [
     {
       "code": "material",
@@ -30,8 +24,65 @@
     "*": {
       "metal": { "base": "game:block/metal/ingot/{material}" }
     }
-    
+
   },
+  "attributes": {
+    "heldItemPitchFollow": 0.9,
+    "handbook": {
+      "groupBy": [ "precussionmallet-*" ]
+    },
+    "toolrackTransform": {
+      "rotation": {
+        "y": 1,
+        "z": -1
+      },
+      "translation": {
+        "x": -0.2,
+        "y": 0.02
+      },
+      "scale": 1.5
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.16,
+        "z": 0.33
+      },
+      "rotation": {
+        "x": 26,
+        "y": 88,
+        "z": -87
+      },
+      "scale": 1.01
+    }
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "WallHalves",
+        "wallOffY": 1,
+        "ctrlKey": true,
+        "selectionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        },
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 0,
+          "y2": 0,
+          "z2": 0
+        }
+      }
+    },
+    { "name": "AnimationAuthoritative" }
+  ],
   "creativeinventory": {
     "general": [ "*" ],
     "items": [ "*" ],
