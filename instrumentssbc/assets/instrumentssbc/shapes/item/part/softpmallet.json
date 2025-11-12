@@ -6,18 +6,8 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"texture": [8,8],
 		"oak": [16,16],
-		"steel": [16,16],
-		"brass": [16,16],
-		"baldcypress": [16,16],
 		"acacia": [16,16],
-		"larch": [16,16],
-		"ebony": [16,16],
-		"aged": [16,16],
-		"cloth-stitched": [16,16],
-		"cloth-stitched-blue": [16,16],
-		"rawhide": [16,16],
 		"white": [16,16]
 	},
 	"textures": {

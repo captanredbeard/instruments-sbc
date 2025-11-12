@@ -9,7 +9,7 @@
 		"wood": [32,16]
 	},
 	"textures": {
-		"wood": "game:item/tool/material/handle"
+		"wood": "game:item/tool/metal/handle"
 	},
 	"elements": [
 		{
