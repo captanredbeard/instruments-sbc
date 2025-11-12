@@ -4,30 +4,30 @@
   "behaviors": [],
   "shape": { "base": "item/instrument/harmonica" },
   "textures": {
-    "metal": { "base": "game:item/resource/plate/{metal}" }
+    "metal": { "base": "game:item/resource/plate/{metal}" },
+    "gold3": { "base": "game:item/resource/plate/gold" }
   },
 
   "attributes": {
     "rackable": true,
     "toolrackTransform": {
       "translation": {
-        "x": 0.68,
-        "y": 0.435,
-        "z": 0.5
+        "x": 0.62, "y": -0.2, "z": -0.2
       },
       "rotation": {
-        "x": 4,
+        "x": -90,
         "y": 0,
-        "z": 90
+        "z": -90
       },
       "origin": {
         "x": 0,
         "y": 0,
         "z": 0
       },
-      "scale": 1.61
+      "scale": 1.36
     }
   },
+  
   "variantgroups": [
     {
       "code": "metal",
