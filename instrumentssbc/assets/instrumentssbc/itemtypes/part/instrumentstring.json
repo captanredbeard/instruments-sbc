@@ -4,38 +4,117 @@
   ],
   "variantgroups": [
     {
-      "code": "material",
-      "states": ["brass", "cupronickel", "steel", "flax"]
+      "code": "metal",
+      "states": [ "brass", "cupronickel", "steel", "flax", "silver", "gold" ]
     }
   ],
-  "shape": { "base": "item/mboxcomb" },
+  "shape": { "base": "item/part/wirespool" },
+  "texturesbyType": {
+    "*-flax": {
+      "metal": { "base": "game:block/metal/ingot/{metal}" },
+      "metal3": { "base": "game:block/metal/riveted/{metal}3" }
+    },
+    "*": {
+      "metal": { "base": "game:block/metal/ingot/{metal}" },
+      "metal3": { "base": "game:block/metal/riveted/{metal}3" }
+    }
+  },
   "attributes": {
-    "shelvable": true,
+    "handbook": {
+      "groupBy": [ "instrumentstring-*" ]
+    },
     "displaycaseable": true,
+    "shelvable": true,
     "onDisplayTransform": {
-      "translation": {
-        "x": 0.02,
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
         "y": 0,
-        "z": 0.02
-      }
+        "z": 0.5
+      },
+      "scale": 0.55
     },
     "groundStorageTransform": {
       "translation": {
         "x": 0,
-        "y": -0.05,
+        "y": -0.1,
         "z": 0
       },
-      "origin": {
-        "x": 0.75,
-        "y": 0.5,
-        "z": 0.75
+      "rotation": {
+        "x": 0,
+        "y": 30,
+        "z": 0
       },
-      "scale": 0.9
+      "scale": 0.8
     }
   },
   "creativeinventory": {
     "general": [ "*" ],
     "items": [ "*" ],
     "instruments-sbc": [ "*" ]
+  },
+
+  "maxstacksize": 32,
+  "metalDensity": 210,
+  "guiTransform": {
+    "rotation": {
+      "x": 1,
+      "y": 43,
+      "z": -37
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.1,
+      "z": 0.5
+    },
+    "scale": 2.41
+  },
+  "fpHandTransform": {
+    "rotation": {
+      "x": 109,
+      "y": 89,
+      "z": -42
+    },
+    "origin": {
+      "x": 0.6,
+      "y": 0.3,
+      "z": 0.5
+    },
+    "scale": 1.48
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1,
+      "y": -1,
+      "z": -1.3
+    },
+    "rotation": {
+      "x": -93,
+      "y": -3,
+      "z": -5
+    },
+    "scale": 0.51
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.3,
+      "y": 0.0,
+      "z": 0.5299
+    },
+    "scale": 4
   }
 }

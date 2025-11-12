@@ -5,7 +5,7 @@
   },
   "variantgroups": [
     {
-      "code": "material",
+      "code": "metal",
       "states": [
         "brass",
         "steel",
@@ -22,7 +22,7 @@
   },
   "texturesByType": {
     "*-flax": {},
-    "*": { "metal": { "base": "game:block/metal/ingot/{material}" } }
+    "*": { "metal": { "base": "game:block/metal/ingot/{metal}" } }
 
   },
   "attributes": {
