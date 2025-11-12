@@ -11,8 +11,8 @@
   "shape": { "base": "item/part/wirespool" },
   "texturesbyType": {
     "*-flax": {
-      "metal": { "base": "game:block/metal/ingot/{metal}" },
-      "metal3": { "base": "game:block/metal/riveted/{metal}3" }
+      "metal": { "base": "game:block/linen" },
+      "metal3": { "base": "game:item/resource/fibers" }
     },
     "*": {
       "metal": { "base": "game:block/metal/ingot/{metal}" },

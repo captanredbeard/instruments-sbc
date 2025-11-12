@@ -6,8 +6,8 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"brass.png": [32,32],
-		"wood.png": [64,32],
+		"brass": [32,32],
+		"wood": [64,32],
 		"seraph": [32,76],
 		"hair": [48,48],
 		"brass": [16,16],

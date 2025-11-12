@@ -35,7 +35,7 @@
       }
     }
   ],
-  "damagedby": [ "blockbreaking"],
+  "damagedby": [ "blockbreaking" ],
   "durability": 1500,
   "tooltier": 5,
   "heldTpHitAnimation": "breaktool",
@@ -44,5 +44,67 @@
     "items": [ "*" ],
     "tools": [ "*" ],
     "instruments-sbc": [ "*" ]
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0.0468,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -161,
+      "y": 20,
+      "z": 90
+    },
+    "scale": 2.5
+  },
+  "guiTransform": {
+    "translation": {
+      "x": -4,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -77,
+      "y": 47,
+      "z": -151
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.38
+    },
+    "scale": 1.9
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.45,
+      "z": 0.5
+    },
+    "scale": 3.6
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.65,
+      "y": -0.62,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": 90,
+      "y": -174,
+      "z": 0
+    },
+    "scale": 1
   }
 }
