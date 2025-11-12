@@ -15,10 +15,10 @@
 				"_####_"
 			]
 		],
-		"name": "Harmonoica Comb",
+		"name": "Harmonoica Case",
 		"output": {
 			"type": "item",
-			"code": "harmonicacomb-{metal}"
+			"code": "harmonicacase-{metal}"
 		}
 	},
 	{
@@ -38,10 +38,10 @@
 				"_####_"
 			]
 		],
-		"name": "Harmonoica Comb",
+		"name": "Harmonoica Case",
 		"output": {
 			"type": "item",
-			"code": "harmonicacomb-{metal}",
+			"code": "harmonicacase-{metal}",
 			"quantity": 2
 		}
 	}
