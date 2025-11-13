@@ -20,9 +20,6 @@
     }
   },
   "attributes": {
-    "handbook": {
-      "groupBy": [ "instrumentstring-*" ]
-    },
     "displaycaseable": true,
     "shelvable": true,
     "onDisplayTransform": {
