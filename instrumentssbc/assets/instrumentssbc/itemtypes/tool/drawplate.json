@@ -35,6 +35,7 @@
       }
     }
   ],
+  "storageFlags": 257,
   "damagedby": [ "blockbreaking" ],
   "durability": 1500,
   "tooltier": 5,
