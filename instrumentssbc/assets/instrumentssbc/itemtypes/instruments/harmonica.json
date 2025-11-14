@@ -73,5 +73,18 @@
       "z": 0.5
     },
     "scale": 3.85
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.7,
+      "y": -0.3,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -24,
+      "y": -83,
+      "z": 23
+    },
+    "scale": 0.7
   }
 }
