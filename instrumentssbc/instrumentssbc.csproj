@@ -48,15 +48,23 @@
   <Folder Include="assets\instrumentssbc\patches\" />
   <Folder Include="assets\instrumentssbc\recipes\grid\brass\" />
   <Folder Include="assets\instrumentssbc\shapes\block\abcbell\" />
+  <Folder Include="assets\instrumentssbc\shapes\item\instrument\brass\" />
+  <Folder Include="assets\instrumentssbc\shapes\item\instrument\other\" />
+  <Folder Include="assets\instrumentssbc\shapes\item\instrument\string\" />
   <Folder Include="assets\instrumentssbc\shapes\item\schematic\" />
   <Folder Include="assets\instruments\sounds\bellblock\" />
   <Folder Include="assets\instrumentssbc\textures\item\instrument\" />
-  <Folder Include="assets\instruments\sounds\abcbell\oldsounds\" />
 </ItemGroup>
 
 <ItemGroup>
   
+  <Compile Remove="assets\instruments\sounds\abcbell\oldsounds\**" />
+  
+  <EmbeddedResource Remove="assets\instruments\sounds\abcbell\oldsounds\**" />
+  
   <EmbeddedResource Remove="external\**" />
+  
+  <None Remove="assets\instruments\sounds\abcbell\oldsounds\**" />
 </ItemGroup>
 
 <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
