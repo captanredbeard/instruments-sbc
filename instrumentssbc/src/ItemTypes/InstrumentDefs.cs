@@ -192,6 +192,16 @@ namespace instrumentssbc.src.ItemTypes
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
         }
     }
+    public class JewharpItem : InstrumentItem
+    {
+        public override void OnLoaded(ICoreAPI api)
+        {
+            base.OnLoaded(api);
+            instrument = "jewharp";
+            animation = "holdbothhands";
+            Definitions.GetInstance().AddInstrumentType(instrument, animation);
+        }
+    }
 
     #endregion woodwinds
 
