@@ -1,0 +1,94 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 8,
+	"textureSizes": {
+		"metal": [16, 8],
+		"wood": [16, 8]
+	},
+	"textures": {
+		"metal": "game:item/tool/material/iron",
+		"wood": "game:item/tool/material/wood"
+	},
+	"elements": [
+		{
+			"name": "handle",
+			"from": [3.5, 7.5, 7.75],
+			"to": [14.5, 8.25, 8.5],
+			"rotationOrigin": [0, 0, 8],
+			"uv": [0, 0],
+			"shade": true,
+			"faces": {
+				"north": {"texture": "#wood", "uv": [2, 3, 13, 4], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#wood", "uv": [3, 0, 4, 1], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#wood", "uv": [1, 5.5, 12, 6.5], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#wood", "uv": [4, 0, 5, 1], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#wood", "uv": [5, 2, 16, 3], "autoUv": false, "snapUv": false},
+				"down": {"texture": "#wood", "uv": [0, 5, 11, 6], "autoUv": false, "snapUv": false}
+			}
+		},
+		{
+			"name": "Cube1",
+			"from": [12.25, 7.05, 6],
+			"to": [14, 8.7, 9.1],
+			"rotationOrigin": [0, 0, 0],
+			"uv": [0, 0],
+			"shade": true,
+			"faces": {
+				"north": {"texture": "#metal", "uv": [1, 5, 3, 7], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#metal", "uv": [2, 1, 6, 3], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#metal", "uv": [2, 3, 4, 5], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#metal", "uv": [1, 5, 5, 7], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#metal", "uv": [5, 2, 7, 6], "autoUv": false, "snapUv": false},
+				"down": {"texture": "#metal", "uv": [1, 3, 3, 7], "autoUv": false, "snapUv": false}
+			}
+		},
+		{
+			"name": "Cube1",
+			"from": [12.25, 7.05, 9.1],
+			"to": [13.05, 8.7, 10.75],
+			"rotationOrigin": [0, 0, 2.7],
+			"uv": [0, 0],
+			"shade": true,
+			"faces": {
+				"north": {"texture": "#metal", "uv": [1, 5, 3, 7], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#metal", "uv": [2, 1, 6, 3], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#metal", "uv": [2, 3, 4, 5], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#metal", "uv": [1, 5, 5, 7], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#metal", "uv": [5, 2, 7, 6], "autoUv": false, "snapUv": false},
+				"down": {"texture": "#metal", "uv": [1, 3, 3, 7], "autoUv": false, "snapUv": false}
+			},
+			"stepParentName": "",
+			"climateColorMap": "",
+			"gradientShade": false,
+			"renderPass": 0,
+			"seasonColorMap": ""
+		},
+		{
+			"name": "Cube1",
+			"from": [13.175, 7.051, 9.1],
+			"to": [14, 8.699, 11],
+			"rotationOrigin": [14, 8.7, 9.1],
+			"uv": [0, 0],
+			"shade": true,
+			"faces": {
+				"north": {"texture": "#metal", "uv": [1, 5, 3, 7], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#metal", "uv": [2, 1, 6, 3], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#metal", "uv": [2, 3, 4, 5], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#metal", "uv": [1, 5, 5, 7], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#metal", "uv": [5, 2, 7, 6], "autoUv": false, "snapUv": false},
+				"down": {"texture": "#metal", "uv": [1, 3, 3, 7], "autoUv": false, "snapUv": false}
+			},
+			"rotationY": -30.1,
+			"stepParentName": "",
+			"climateColorMap": "",
+			"gradientShade": false,
+			"renderPass": 0,
+			"seasonColorMap": ""
+		}
+	],
+	"animations": []
+}

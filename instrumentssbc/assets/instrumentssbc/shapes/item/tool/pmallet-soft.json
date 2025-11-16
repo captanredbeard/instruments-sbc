@@ -1,0 +1,78 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 8,
+	"textureSizes": {
+		"white": [16, 16],
+		"acacia": [16, 16],
+		"wood": [16, 16],
+		"metal": [16, 8],
+		"wood": [16, 8]
+	},
+	"textures": {
+		"white": "game:block/cloth/basic/white",
+		"wood": "game:item/tool/material/wood"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [8, 7.875, 8.125],
+			"to": [8, 7.875, 8.125],
+			"rotationOrigin": [8, 7.875, 8.125],
+			"children": [
+				{
+					"name": "head",
+					"from": [4, 0, 0],
+					"to": [4, 0, 0],
+					"rotationOrigin": [4, 0, 0],
+					"children": [
+						{
+							"name": "cube",
+							"from": [-1, -1, -1],
+							"to": [1, 1, 1],
+							"rotationOrigin": [0, 0, 0],
+							"uv": [0, 0],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#white", "uv": [0, 4, 2, 6], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#white", "uv": [2, 4, 4, 6], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#white", "uv": [4, 4, 6, 6], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#white", "uv": [0, 6, 2, 8], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#white", "uv": [4, 8, 2, 6], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#white", "uv": [6, 6, 4, 8], "autoUv": false, "snapUv": false}
+							}
+						}
+					]
+				},
+				{
+					"name": "handle",
+					"from": [0, 0, 0],
+					"to": [0, 0, 0],
+					"rotationOrigin": [0, 0, 0],
+					"children": [
+						{
+							"name": "cube",
+							"from": [-4, -0.5, -0.5],
+							"to": [3, 0.5, 0.5],
+							"rotationOrigin": [0, 0, 0],
+							"uv": [0, 0],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#wood", "uv": [0, 0, 7, 1], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#wood", "uv": [6, 4, 7, 5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#wood", "uv": [0, 1, 7, 2], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#wood", "uv": [6, 5, 7, 6], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#wood", "uv": [7, 3, 0, 2], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#wood", "uv": [7, 3, 0, 4], "autoUv": false, "snapUv": false}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": []
+}
