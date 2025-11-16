@@ -24,42 +24,7 @@
       },
       "I": {
         "type": "item",
-        "code": "game:ingot-*",
-        "name": "metal",
-        "allowedVariants": [ "silver", "gold", "meteoriciron", "bismuth", "blackbronze", "brass", "cupronickel" ]
-      }
-    },
-    "output": {
-      "type": "item",
-      "code": "oboe-{metal}"
-    }
-  },
-  {
-    "ingredientPattern": "RB,PK,PI",
-    "width": 2,
-    "height": 3,
-    "ingredients": {
-      "B": {
-        "type": "item",
-        "code": "schematic-instrumentssbc-woodwind"
-      },
-      "R": {
-        "type": "item",
-        "code": "instrumentreed-reed"
-      },
-      "K": {
-        "type": "item",
-        "code": "game:knife-*",
-        "isTool": true,
-        "toolDurabilityCost": 32
-      },
-      "P": {
-        "type": "item",
-        "code": "game:plank-ebony"
-      },
-      "I": {
-        "type": "item",
-        "code": "game:ingot-*",
+        "code": "game:metalnailsandstrips-*",
         "name": "metal",
         "allowedVariants": [ "silver", "gold", "meteoriciron", "bismuth", "blackbronze", "brass", "cupronickel" ]
       }
