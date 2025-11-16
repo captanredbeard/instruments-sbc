@@ -1,0 +1,25 @@
+{
+  "ingredientPattern": "DI",
+  "width": 2,
+  "height": 2,
+  "shapeless": true,
+  "ingredients": {
+    "D": {
+      "type": "item",
+      "code": "drawplate",
+      "isTool": true,
+      "toolDurabilityCost": 4
+    },
+    "I": {
+      "type": "item",
+      "code": "ingot-*",
+      "name": "metal",
+      "allowedVariants": [ "silver", "gold", "brass", "steel", "cupronickel" ]
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "instrumentstring-{metal}",
+    "quantity": 4
+  }
+}

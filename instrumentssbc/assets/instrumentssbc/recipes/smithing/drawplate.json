@@ -7,16 +7,16 @@
   },
   "pattern": [
     [
-      "#####",
-      "#___#",
-      "#_#_#",
-      "#_#_#",
-      "#_###"
+      "#############",
+      "#_#_#_#_#_#_#",
+      "#############",
+      "#_#_#_#_#_#_#",
+      "#############"
     ]
   ],
-  "name": "Instrument Strings",
+  "name": "Wire Drawplate",
   "output": {
     "type": "item",
-    "code": "instrumentstring-{metal}"
+    "code": "drawplate"
   }
 }
