@@ -8,14 +8,15 @@
     },
     "pattern": [
       [
-        "#_#_#_#_#",
-        "#_#_#_#_#"
+        "#_#_#_#",
+        "#_#_#_#"
       ]
     ],
     "name": "Instrument Reeds",
     "output": {
       "type": "item",
-      "code": "instrumentreed-{metal}"
+      "code": "instrumentreed-{metal}",
+      "quantity": 4
     }
   }
 ]
