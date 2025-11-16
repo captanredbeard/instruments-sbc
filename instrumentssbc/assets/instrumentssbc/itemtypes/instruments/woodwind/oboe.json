@@ -27,7 +27,7 @@
       }
     }
   ],
-  "shape": { "base": "item/instrument/oboe" },
+  "shape": { "base": "item/instrument/wodwind/oboe" },
   "textures": {
 
     "metal": { "base": "game:block/metal/ingot/{metal}" }
