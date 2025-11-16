@@ -8,8 +8,8 @@
     "code": "schematic-instrumentssbc-guitar"
   }
  },
- "output": {
- "type": "item",
- "code": "leadguitar"
- }
+  "output": {
+    "type": "item",
+    "code": "guitar-lead"
+  }
 }

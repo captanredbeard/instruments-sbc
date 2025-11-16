@@ -12,8 +12,8 @@
  "code": "game:bone"
  }
  },
- "output": {
- "type": "item",
- "code": "overdriveguitar"
- }
+  "output": {
+    "type": "item",
+    "code": "guitar-overdrive"
+  }
 }

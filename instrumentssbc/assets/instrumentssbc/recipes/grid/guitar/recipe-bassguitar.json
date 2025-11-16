@@ -1,19 +1,39 @@
 {
-  "ingredientPattern": "B__,___,___",
+  "ingredientPattern": "JKP,_PB,HS_",
   "width": 3,
   "height": 3,
   "ingredients": {
-    "B": {
+    "J": {
       "type": "item",
       "code": "schematic-instrumentssbc-guitar"
     },
-    "C": {
+    "S": {
+      "type": "item",
+      "code": "instrumentstring-steel",
+      "quantity": 6
+    },
+    "B": {
       "type": "item",
       "code": "game:bone"
+    },
+    "K": {
+      "type": "item",
+      "code": "game:knife-*",
+      "isTool": true,
+      "toolDurabilityCost": 6
+    },
+    "H": {
+      "type": "item",
+      "code": "game:metal-plate-*",
+      "allowedVariants": [ "iron", "meteoriciron","steel" ]
+    },
+    "P": {
+      "type": "item",
+      "code": "game:plank-*"
     }
   },
   "output": {
     "type": "item",
-    "code": "bassguitar"
+    "code": "guitar-bass"
   }
 }
