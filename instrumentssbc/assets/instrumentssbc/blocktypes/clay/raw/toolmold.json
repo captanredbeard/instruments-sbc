@@ -1,47 +1,79 @@
 {
-	code: "toolmold",
-	behaviors: [
-		{ name: "GroundStorable", properties: { layout: 'SingleCenter' } },
-		{ name: "RightClickPickup" }
+	"enabled": false,
+	"code": "toolmold",
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+			"properties": { "layout": "SingleCenter" }
+		},
+		{ "name": "RightClickPickup" }
 	],
-	variantgroups: [
-		{ code: "color", states: ["blue", "red", "fire"] },
-		{ code:"materialtype", states: ["raw"] },
-		{ code:"tooltype", states: ["instrumentstring"] },
+	"variantgroups": [
+		{
+			"code": "color",
+			"states": [ "blue", "red", "fire" ]
+		},
+		{
+			"code": "materialtype",
+			"states": [ "raw" ]
+		},
+		{
+			"code": "tooltype",
+			"states": [ "instrumentstring" ]
+		}
 	],
-	shapebytype: {
+	"shapebytype": {
 		"*": {
 			"base": "block/clay/mold/{tooltype}",
 			"rotateY": 90
-		},
+		}
 	},
-	textures: {  all: { base: "game:block/clay/{color}clay" } },
-	attributes: {
-		reinforcable: true,
-		onTongTransformByType: {
+	"textures": { "all": { "base": "game:block/clay/{color}clay" } },
+	"attributes": {
+		"reinforcable": true,
+		"onTongTransformByType": {
 			"toolmold-*-anvil": {
-				translation: { x: -0.9, y: -1.2, z: -0.94 },
-				rotation: { x: -6, y: 93, z: -34 },
-				scale: 0.74
+				"translation": {
+					"x": -0.9,
+					"y": -1.2,
+					"z": -0.94
+				},
+				"rotation": {
+					"x": -6,
+					"y": 93,
+					"z": -34
+				},
+				"scale": 0.74
 			},
 			"*": {
-				translation: { x: -0.9, y: -1.5, z: -0.6 },
-				rotation: { x: 117, y: 0, z: 0 },
-				scale: 0.74
+				"translation": {
+					"x": -0.9,
+					"y": -1.5,
+					"z": -0.6
+				},
+				"rotation": {
+					"x": 117,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 0.74
 			}
 		},
-		shelvableByType: {
+		"shelvableByType": {
 			"*-helvehammer": "SingleCenter",
 			"*": false
 		},
-		handbook: {
-			groupBy: ["toolmold-*-{materialtype}-{tooltype}"]
+		"handbook": {
+			"groupBy": [ "toolmold-*-{materialtype}-{tooltype}" ]
 		}
 	},
-	attributesByType:{
-		"toolmold-red-raw-*":{
-			beehivekiln:{
-				"0": { "type": "block", "code": "instrumentssbc:toolmold-tan-fired-{tooltype}" },
+	"attributesByType": {
+		"toolmold-red-raw-*": {
+			"beehivekiln": {
+				"0": {
+					"type": "block",
+					"code": "instrumentssbc:toolmold-tan-fired-{tooltype}"
+				},
 				"1": {
 					"type": "block",
 					"code": "instrumentssbc:toolmold-orange-fired-{tooltype}"
@@ -56,8 +88,8 @@
 				}
 			}
 		},
-		"toolmold-blue-raw-*":{
-			beehivekiln:{
+		"toolmold-blue-raw-*": {
+			"beehivekiln": {
 				"0": {
 					"type": "block",
 					"code": "instrumentssbc:toolmold-cream-fired-{tooltype}"
@@ -76,8 +108,8 @@
 				}
 			}
 		},
-		"toolmold-fire-raw-*":{
-			beehivekiln:{
+		"toolmold-fire-raw-*": {
+			"beehivekiln": {
 				"0": {
 					"type": "block",
 					"code": "instrumentssbc:toolmold-fire-fired-{tooltype}"
@@ -97,81 +129,139 @@
 			}
 		}
 	},
-	combustiblePropsByType: {
+	"combustiblePropsByType": {
 		"toolmold-fire-raw-*": {
-			meltingPoint: 650,
-			meltingDuration: 45,
-			smeltedRatio: 1,
-			smeltingType: "fire",
-			smeltedStack: {
+			"meltingPoint": 650,
+			"meltingDuration": 45,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": {
 				"type": "block",
 				"code": "instrumentssbc:toolmold-fire-fired-{tooltype}"
 			},
-			requiresContainer: false
+			"requiresContainer": false
 		},
 		"toolmold-*-raw-*": {
-			meltingPoint: 650,
-			meltingDuration: 45,
-			smeltedRatio: 1,
-			smeltingType: "fire",
-			smeltedStack: {
+			"meltingPoint": 650,
+			"meltingDuration": 45,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": {
 				"type": "block",
 				"code": "instrumentssbc:toolmold-blue-fired-{tooltype}"
 			},
-			requiresContainer: false
+			"requiresContainer": false
 		}
 	},
-	blockmaterial: "Ceramic",
-	creativeinventory: {
+	"blockmaterial": "Ceramic",
+	"creativeinventory": {
 		"general": [ "*" ],
 		"construction": [ "*" ],
 		"instruments-sbc": [ "*" ]
 	},
-	replaceable: 700,
-	resistance: 1.5,
-	maxStackSize: 8,
-	lightAbsorption: 0,
-	sounds: {
-		walk: "game:walk/stone",
+	"replaceable": 700,
+	"resistance": 1.5,
+	"maxStackSize": 8,
+	"lightAbsorption": 0,
+	"sounds": {
+		"walk": "game:walk/stone"
 	},
-	collisionboxByType: {
-		"*": { x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 0.125, z2: 0.9375 }
-	},
-	selectionboxByType: {
-		"*": { x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 0.125, z2: 0.9375 }
-	},
-	sideopaque: {
-		all: false
-	},
-	sidesolid: {
-		all: false
-	},
-	guiTransformByType: {
+	"collisionboxByType": {
 		"*": {
-			translation: { x: 0, y: 3, z: 0 },
-			origin: { x: 0.5, y: 0.0625, z: 0.5 },
-			scale: 1.33
+			"x1": 0.0625,
+			"y1": 0,
+			"z1": 0.0625,
+			"x2": 0.9375,
+			"y2": 0.125,
+			"z2": 0.9375
 		}
 	},
-	tpHandTransformByType: {
+	"selectionboxByType": {
 		"*": {
-			translation: { x: -1, y: -0.6, z: -1.05 },
-			rotation: { x: -87, y: 9, z: 4 },
-			origin: { x: 0.5, y: 0.125, z: 0.5 },
-			scale: 0.5
+			"x1": 0.0625,
+			"y1": 0,
+			"z1": 0.0625,
+			"x2": 0.9375,
+			"y2": 0.125,
+			"z2": 0.9375
 		}
 	},
-	fpHandTransformByType: {
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"guiTransformByType": {
 		"*": {
-			translation: { x: -0.3, y: 0, z: 0.5 },
-			rotation: { x: 16, y: -51, z: 91 },
-			origin: { x: 0.5, y: 0.125, z: 0.5 }
+			"translation": {
+				"x": 0,
+				"y": 3,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.0625,
+				"z": 0.5
+			},
+			"scale": 1.33
 		}
 	},
-	groundTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 0, y: -45, z: 0 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 2.2
+	"tpHandTransformByType": {
+		"*": {
+			"translation": {
+				"x": -1,
+				"y": -0.6,
+				"z": -1.05
+			},
+			"rotation": {
+				"x": -87,
+				"y": 9,
+				"z": 4
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.125,
+				"z": 0.5
+			},
+			"scale": 0.5
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": {
+				"x": -0.3,
+				"y": 0,
+				"z": 0.5
+			},
+			"rotation": {
+				"x": 16,
+				"y": -51,
+				"z": 91
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.125,
+				"z": 0.5
+			}
+		}
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": -45,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 2.2
 	}
 }
