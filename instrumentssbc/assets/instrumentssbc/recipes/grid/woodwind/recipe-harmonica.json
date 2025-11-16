@@ -3,6 +3,7 @@
     "ingredientPattern": "BC,_R,_C",
     "width": 2,
     "height": 3,
+    "shapeless": true,
     "ingredients": {
       "B": {
         "type": "item",
@@ -14,31 +15,7 @@
       },
       "C": {
         "type": "item",
-        "code": "harmonicacomb-*",
-        "name": "metal"
-      }
-    },
-    "output": {
-      "type": "item",
-      "code": "harmonica-{metal}"
-    }
-  },
-  {
-    "ingredientPattern": "CB,R_,C_",
-    "width": 2,
-    "height": 3,
-    "ingredients": {
-      "B": {
-        "type": "item",
-        "code": "schematic-instrumentssbc-woodwind"
-      },
-      "R": {
-        "type": "item",
-        "code": "instrumentreed-brass"
-      },
-      "C": {
-        "type": "item",
-        "code": "harmonicacomb-*",
+        "code": "harmonicacase-*",
         "name": "metal"
       }
     },

@@ -6,18 +6,18 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"harmonicadesign.png": [16,16],
+		"harmonicadesign": [16,16],
 		"oak": [16,16],
-		"brass3.png": [32,32],
-		"bituminous.png": [32,32],
-		"transparent.png": [32,32],
-		"ebony.png": [32,32],
+		"brass3": [32,32],
+		"bituminous": [32,32],
+		"transparent": [32,32],
+		"ebony": [32,32],
 		"metal": [16,16],
 		"gold": [16,16],
 		"bituminous": [16,16]
 	},
 	"textures": {
-		"harmonicadesign.png": "item/instrument/harmonicadesign",
+		"harmonicadesign": "game:block/transparent",
 		"transparent": "game:block/transparent",
 		"bituminous": "game:block/coal/bituminous",
 		"gold": "game:block/metal/ingot/gold",
@@ -49,8 +49,8 @@
 						"east": { "texture": "#transparent", "uv": [ 6.0, 0.0, 8.0, 1.5 ], "autoUv": false, "snapUv": false },
 						"south": { "texture": "#transparent", "uv": [ 0.0, 6.0, 5.75, 7.5 ], "autoUv": false, "snapUv": false },
 						"west": { "texture": "#transparent", "uv": [ 6.0, 2.0, 8.0, 3.5 ], "autoUv": false, "snapUv": false },
-						"up": { "texture": "#harmonicadesign.png", "uv": [ 0.0, 0.0, 16.0, 8.1 ], "autoUv": false, "snapUv": false },
-						"down": { "texture": "#harmonicadesign.png", "uv": [ 0.0, 0.0, 16.0, 8.1 ], "autoUv": false, "snapUv": false }
+						"up": { "texture": "#harmonicadesign", "uv": [ 0.0, 0.0, 16.0, 8.1 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#harmonicadesign", "uv": [ 0.0, 0.0, 16.0, 8.1 ], "autoUv": false, "snapUv": false }
 					}
 				},
 				{
