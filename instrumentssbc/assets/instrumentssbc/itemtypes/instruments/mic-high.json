@@ -2,7 +2,7 @@
   "code": "mic-high",
   "class": "instrumentssbc:micHighClass",
   "behaviors": [],
-  "shape": { "base": "item/instrument/microphone" },
+  "shape": { "base": "item/instrument/mic-high" },
   "attributes": {
     "rackable": true,
     "toolrackTransform": {
@@ -17,7 +17,7 @@
     "instruments-sbc": [ "*" ]
   },
   "storageFlags": 2049,
-  "heldTpUseAnimation": "holdbothhandslarge",
+  "heldTpUseAnimation": "holdbothhands",
   "guiTransform": {
     "translation": {
       "x": 0,
@@ -26,14 +26,32 @@
     },
     "rotation": {
       "x": 90,
-      "y": -45,
-      "z": -25
+      "y": 45,
+      "z": 24
     },
     "origin": {
-      "x": 0.5,
-      "y": 0.2,
-      "z": 0.52
+      "x": 0.49,
+      "y": 0.05,
+      "z": 0.5
     },
-    "scale": 1.92
+    "scale": 3
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.22,
+      "y": 0.1,
+      "z": -0.2
+    },
+    "scale": 0.87
   }
 }
