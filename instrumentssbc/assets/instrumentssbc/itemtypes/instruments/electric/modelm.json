@@ -1,8 +1,9 @@
 {
-  "code": "electricbassguitar",
-  "class": "instrumentssbc:electricBassGuitarClass",
+  "enabled": false,
+  "code": "modelm",
+  "class": "instrumentssbc:modelMClass",
   "behaviors": [],
-  "shape": { "base": "item/electricbassguitar" },
+  "shape": { "base": "item/instrument/electric/modelm" },
   "attributes": {
     "rackable": true,
     "toolrackTransform": {

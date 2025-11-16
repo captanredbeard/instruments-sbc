@@ -2,7 +2,7 @@
   "code": "flute",
   "class": "instrumentssbc:fluteClass",
   "behaviors": [],
-  "shape": { "base": "item/instrument/flute" },
+  "shape": { "base": "item/instrument/woodwind/flute" },
   "textures": {
     
     "metal": { "base": "game:block/metal/ingot/{metal}" }
