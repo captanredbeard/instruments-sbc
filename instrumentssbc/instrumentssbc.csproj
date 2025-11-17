@@ -52,7 +52,6 @@
   <Folder Include="assets\instrumentssbc\shapes\item\instrument\other\" />
   <Folder Include="assets\instrumentssbc\shapes\item\instrument\string\" />
   <Folder Include="assets\instrumentssbc\shapes\item\schematic\" />
-  <Folder Include="assets\instrumentssbc\textures\item\instrument\harmonicadesigns\" />
   <Folder Include="assets\instruments\sounds\bellblock\" />
 </ItemGroup>
 

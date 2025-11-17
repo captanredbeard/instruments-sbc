@@ -23,6 +23,7 @@
     "*": { "metal": { "base": "game:block/metal/ingot/{metal}" } }
   },
   "attributes": {
+    "rackable": true,
     "heldItemPitchFollow": 0.9,
     "handbook": {
       "groupBy": [ "precussionmallet-*" ]
@@ -87,19 +88,6 @@
   "storageFlags": 257,
   "heldTpHitAnimation": "smithingwide",
 
-  "fpHandTransform": {
-    "translation": {
-      "x": 0.0468,
-      "y": -0.2,
-      "z": 0
-    },
-    "rotation": {
-      "x": -33,
-      "y": 7,
-      "z": 90
-    },
-    "scale": 2.75
-  },
   "guiTransform": {
     "translation": {
       "x": 0,
@@ -139,14 +127,14 @@
   "tpHandTransform": {
     "translation": {
       "x": -0.65,
-      "y": -0.48,
-      "z": -0.52
+      "y": -0.51,
+      "z": -0.535
     },
     "rotation": {
       "x": 90,
       "y": 1,
       "z": 0
     },
-    "scale": 1
+    "scale": 0.94
   }
 }
