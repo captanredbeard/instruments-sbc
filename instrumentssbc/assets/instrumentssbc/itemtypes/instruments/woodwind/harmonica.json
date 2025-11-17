@@ -9,13 +9,13 @@
     }
   ],
   "shape": { "base": "item/instrument/woodwind/harmonica" },
-  "textures": {
-    "metal": { "base": "game:item/resource/plate/{metal}" }
-  },
   "texturesbyType": {
-    "*-gold": { "design": "item/instrument/harmonicadesign" },
-    "*-silver": { "design": "item/instrument/harmonicadesign" }
-    //,"*": { "design": "item/instrument/harmonicadesign" }
+    "*-gold": { "design": {"base": "item/instrument/harmonica/design1" } },
+    "*-silver": { "design": { "base": "item/instrument/harmonica/design1" } },
+    "*": { "design": {"base": "game:block/transparent" } }
+  },
+  "textures": {
+    "metal": { "base": "game:block/metal/ingot/{metal}" }
   },
   "attributes": {
     "rackable": true,
