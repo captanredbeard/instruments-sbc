@@ -1,13 +1,40 @@
 {
- "ingredientPattern": "B__,___,___",
- "width":3,
- "height":3,
- "ingredients": {
-  "B": {
-    "type": "item",
-    "code": "schematic-instrumentssbc-guitar"
-  }
- },
+  "ingredientPattern": "JKP,_PB,HSO",
+  "width": 3,
+  "height": 3,
+  "ingredients": {
+    "J": {
+      "type": "item",
+      "code": "schematic-instrumentssbc-guitar"
+    },
+    "S": {
+      "type": "item",
+      "code": "instrumentstring-steel",
+      "quantity": 6
+    },
+    "B": {
+      "type": "item",
+      "code": "game:bone"
+    },
+    "K": {
+      "type": "item",
+      "code": "game:knife-*",
+      "isTool": true,
+      "toolDurabilityCost": 6
+    },
+    "H": {
+      "type": "item",
+      "code": "game:metalplate-cupronickel"
+    },
+    "P": {
+      "type": "item",
+      "code": "game:plank-*"
+    },
+    "O": {
+      "type": "item",
+      "code": "game:jonasframes-oscillator01"
+    }
+  },
   "output": {
     "type": "item",
     "code": "guitar-lead"
