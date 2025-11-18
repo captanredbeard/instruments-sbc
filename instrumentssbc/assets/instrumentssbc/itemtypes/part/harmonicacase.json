@@ -9,10 +9,10 @@
     }
   ],
   "shape": {
-    "base": "item/part/harmonicacomb"
+    "base": "item/part/harmonicacase"
   },
   "textures": {
-    "metal": { "base": "game:item/resource/plate/{metal}" }
+    "metal": { "base": "game:block/metal/ingot/{metal}" }
   },
   "attributes": {
     "shelvable": true,
@@ -42,5 +42,36 @@
     "general": [ "*" ],
     "items": [ "*" ],
     "instruments-sbc": [ "*" ]
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.7,
+      "y": -0.3,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -24,
+      "y": -83,
+      "z": 23
+    },
+    "scale": 0.7
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 1,
+      "y": -145,
+      "z": 31
+    },
+    "origin": {
+      "x": 0.48,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 3.85
   }
 }

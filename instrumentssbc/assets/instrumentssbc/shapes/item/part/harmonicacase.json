@@ -1,0 +1,93 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"design": [16, 16],
+		"transparent": [16, 16],
+		"bituminous": [16, 16],
+		"ebony": [16, 16],
+		"wood": [16, 16],
+		"metal": [16, 16]
+	},
+	"textures": {
+		"design": "game:block/transparent",
+		"transparent": "game:block/transparent",
+		"bituminous": "game:block/coal/bituminous",
+		"ebony": "game:block/wood/debarked/ebony",
+		"wood": "game:block/wood/oak",
+		"metal": ""
+	},
+	"elements": [
+		{
+			"name": "body",
+			"from": [8.25, 7.58, 8],
+			"to": [8.25, 7.58, 8],
+			"rotationOrigin": [8.25, 7.58, 8],
+			"children": [
+				{
+					"name": "bottomplate",
+					"from": [2.45, -7.275, -0.98],
+					"to": [2.45, -7.275, -0.98],
+					"rotationOrigin": [2.45, -7.275, -0.98],
+					"children": [
+						{
+							"name": "BplateE",
+							"from": [0, 0, 0],
+							"to": [1.25, 0.5, 2],
+							"rotationOrigin": [0.625, 0.25, 0.005],
+							"uv": [0, 0],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#metal", "uv": [6, 4, 7, 5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#metal", "uv": [3, 5, 5, 6], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#metal", "uv": [5, 7, 6, 8], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#metal", "uv": [4, 4, 6, 5], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#metal", "uv": [1, 8, 0, 6], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#metal", "uv": [6, 1, 5, 3], "autoUv": false, "snapUv": false}
+							},
+							"rotationZ": 22.5
+						},
+						{
+							"name": "BplateW",
+							"from": [-6.65, 0, 0],
+							"to": [-5.4, 0.5, 2],
+							"rotationOrigin": [-6.025, 0.25, 0.005],
+							"uv": [0, 0],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#metal", "uv": [6, 3, 7, 4], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#metal", "uv": [4, 2, 6, 3], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#metal", "uv": [4, 7, 5, 8], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#metal", "uv": [0, 5, 2, 6], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#metal", "uv": [5, 3, 4, 1], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#metal", "uv": [3, 5, 2, 7], "autoUv": false, "snapUv": false}
+							},
+							"rotationZ": -22.5
+						},
+						{
+							"name": "bottomplate",
+							"from": [-5.55, -0.225, -0.02],
+							"to": [0.15, 0.275, 2.005],
+							"rotationOrigin": [-2.45, -0.225, 0.98],
+							"uv": [0, 0],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#metal", "uv": [6, 6, 12, 7], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#metal", "uv": [9, 5, 11, 6], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#metal", "uv": [6, 7, 12, 8], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#metal", "uv": [4, 1, 6, 2], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#metal", "uv": [6, 6, 0, 4], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#metal", "uv": [6, 6, 0, 8], "autoUv": false, "snapUv": false}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": []
+}
