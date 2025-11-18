@@ -5,7 +5,7 @@
   "variantgroups": [
     {
       "code": "metal",
-      "states": [ "brass", "cupronickel", "steel", "flax", "silver", "gold" ]
+      "states": [ "brass", "cupronickel", "steel", "flax"/*, "silver", "gold"*/ ]
     }
   ],
   "shape": { "base": "item/part/wirespool" },

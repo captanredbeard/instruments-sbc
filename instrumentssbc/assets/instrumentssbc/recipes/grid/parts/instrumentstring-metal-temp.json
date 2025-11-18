@@ -6,15 +6,13 @@
   "ingredients": {
     "D": {
       "type": "item",
-      "code": "drawplate",
-      "isTool": true,
-      "toolDurabilityCost": 4
+      "code": "drawplate"
     },
     "I": {
       "type": "item",
       "code": "ingot-*",
       "name": "metal",
-      "allowedVariants": [ "silver", "gold", "brass", "steel", "cupronickel" ]
+      "allowedVariants": [ "brass", "cupronickel", "steel", "flax" /*, "silver", "gold"*/ ]
     }
   },
   "output": {
