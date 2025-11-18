@@ -3,7 +3,7 @@
   "behaviors": [
   ],
   "shape": { "base": "item/part/pianokeys" },
-
+  "maxstacksize": 32,
   "attributes": {
     "shelvable": true,
     "displaycaseable": true,

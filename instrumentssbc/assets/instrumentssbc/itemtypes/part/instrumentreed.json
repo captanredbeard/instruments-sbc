@@ -43,6 +43,10 @@
       "scale": 0.9
     }
   },
+  "maxstacksizebytype": {
+    "*-reed": 4,
+    "*": 32
+  },
   "creativeinventory": {
     "general": [ "*" ],
     "items": [ "*" ],

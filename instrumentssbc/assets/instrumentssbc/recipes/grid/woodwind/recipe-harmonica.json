@@ -11,7 +11,8 @@
       },
       "R": {
         "type": "item",
-        "code": "instrumentreed-brass"
+        "code": "instrumentreed-brass",
+        "quantity": 10
       },
       "C": {
         "type": "item",
