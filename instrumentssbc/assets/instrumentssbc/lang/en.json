@@ -5,15 +5,19 @@
   "item-instrumentbag-large": "Large Instrument Bag",
   "item-instrumentbag-small": "Small Instrument Bag",
 
+  //Guitars
+  "item-guitar-banjo": "Banjo",
+  "itemdesc-guitar-banjo": "this is a description",
+  "item-guitar-bass": "Bass Guitar",
+  "item-guitar-lead": "Lead Guitar",
+  "item-guitar-nylon": "Nylon Guitar",
+  "item-guitar-overdrive": "Overdrive Guitar",
+  "item-guitar-electricbass": "Electric Bass Guitar",
 
-  "item-banjo": "Banjo",
-  "itemdesc-banjo": "this is a description",
-  "item-bassguitar": "Bass Guitar",
-  "item-leadguitar": "Lead Guitar",
-  "item-nylonguitar": "Nylon Guitar",
-  "item-overdriveguitar": "Overdrive Guitar",
+  //Electric
   "item-squarewave": "Square Wave Synth",
-  "item-electricbassguitar": "Electric Bass Guitar",
+  "item-mic-high": "High Pitch Microphone",
+  "item-spacesynth": "Space Synth",
 
   //Oboe
   "item-oboe-gold": "Golden Oboe",
@@ -24,27 +28,35 @@
   "item-oboe-blackbronze": "Black Bronze Oboe",
   "item-oboe-cupronickel": "Cupronickel Oboe",
 
+  //Flute
+  "item-flute-silver": "Silver Flute",
+  "item-flute-gold": " Golden Flute",
+
+
+  //Precussion
   "item-reedorgan": "Reed Organ",
   "item-rockorgan": "Rock Organ",
   "item-brightpiano": "Bright Piano",
-
-  "item-flute-silver": "Silver Flute",
-  "item-flute-gold": " Golden Flute",
-  "item-spacesynth": "Space Synth",
-  "item-hammerdulcimer": "Hammer Dulcimer",
-  "item-harmonica": "Harmonica",
-  "item-koto": "Koto",
-  "item-mic-high": "High Pitch Microphone",
-
-
   "item-xylophone": "Xylophone",
+
+
+  "item-hammerdulcimer": "Hammer Dulcimer",
+  "item-koto": "Koto",
+
+
+
+  //Guitars
+  "item-jewharp-brass": "Brass Jaw Harp",
+  "item-jewharp-steel": "Steel Jaw Harp",
+  "item-jewharp-silver": "Silver Jaw Harp",
+  "itemdesc-jewharp-*": "It's Twangin Time! YEEE HAW'",
 
   //Harmonica Types
   "item-harmonica-zinc": "Zinc Harmonica",
   "item-harmonica-brass": "Brass Harmonica",
   "item-harmonica-silver": "Silver Harmonica",
   "item-harmonica-gold": "Golden Harmonica",
-  "itemdesc-harmonica-*": "",
+  "itemdesc-harmonica-*": "The perfect size to fit in your pockets",
 
   //Tool Molds
   "block-toolmold-blue-raw-instrumentstring": "Raw blue clay instrument string Mold",
@@ -103,10 +115,10 @@
   "item-instrumentstring-steel": "Steel Instrument String",
   "item-instrumentstring-cupronickel": "Cupronickel Instrument String",
 
-  "item-harmonicacomb-zinc": "Zinc Harmonica Comb",
-  "item-harmonicacomb-brass": "Brass Harmonica Comb",
-  "item-harmonicacomb-silver": "Silver Harmonica Comb",
-  "item-harmonicacomb-gold": "Golden Harmonica Comb",
+  "item-harmonicacase-zinc": "Zinc Harmonica Case",
+  "item-harmonicacase-brass": "Brass Harmonica Case",
+  "item-harmonicacase-silver": "Silver Harmonica Case",
+  "item-harmonicacase-gold": "Golden Harmonica Case",
 
   "item-precussionmallet-flax": "Soft precusion mallet",
   "item-precussionmallet-wood": "Wooden precusion mallet",
