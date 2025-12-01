@@ -202,6 +202,16 @@ namespace instrumentssbc.src.ItemTypes
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
         }
     }
+    public class bagPipesItem : InstrumentItem
+    {
+        public override void OnLoaded(ICoreAPI api)
+        {
+            base.OnLoaded(api);
+            instrument = "bagpipes";
+            animation = "holdbothhands";
+            Definitions.GetInstance().AddInstrumentType(instrument, animation);
+        }
+    }
 
     #endregion woodwinds
 

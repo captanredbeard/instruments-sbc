@@ -41,6 +41,7 @@ namespace instrumentssbc
             api.RegisterItemClass(modid+ ":rockOrganClass", typeof(RockOrganItem));
             api.RegisterItemClass(modid+ ":micHighClass", typeof(MicHighItem));
             api.RegisterItemClass(modid+ ":jewHarpClass", typeof(JewharpItem));
+            api.RegisterItemClass(modid + ":bagPipesClass", typeof(bagPipesItem));
             //    api.RegisterItemClass(modid+ ":modelMClass", typeof(ModelMItem));
 
             api.RegisterBlockClass(modid + ":abcbellBlock", typeof(abcBellBlock));
