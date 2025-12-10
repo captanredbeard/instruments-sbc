@@ -23,13 +23,52 @@
     "toolrackTransform": {
       "rotation": { "z": 180 },
       "translation": { "y": -0.4 },
-      "scale": 1.25
+      "scale": 1
+    },
+    "groundStorageTransform": {
+      "rotation":{
+        "x": 0,
+        "y": -180,
+        "z": 0
+
+      }
     }
   },
   "creativeinventory": {
     "general": [ "*" ],
     "items": [ "*" ],
     "instruments-sbc": [ "*" ]
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.28,
+      "y": -0.9,
+      "z": -0.5
+    },
+    "rotation": {
+      "x": 90,
+      "y": 0,
+      "z": -77
+    },
+    "scale": 0.6
+  },
+    "guiTransform": {
+    "translation": { 
+      "x": 2, 
+      "y": -2, 
+      "z": 50 
+    },
+    "rotation": { 
+      "x": 146, 
+      "y": 135, 
+      "z": 2 
+    },
+    "origin":{
+      "x":0,
+      "y":0,
+      "z":0
+    },
+    "scale": 1.04
   },
   "storageFlags": 2049,
   "heldTpUseAnimation": "holdbothhandslarge"
