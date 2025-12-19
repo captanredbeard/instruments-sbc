@@ -3,7 +3,7 @@
     "type": "item",
     "code": "game:ingot-*",
     "name": "metal",
-    "allowedVariants": [ "brass","steel","cupronickel" ]
+    "allowedVariants": [ "iron","steel"]
   },
   "pattern": [
     [

@@ -17,6 +17,7 @@
   //Electric
   "item-squarewave": "Square Wave Synth",
   "item-mic-high": "High Pitch Microphone",
+  "itemdesc-mic-high": "Makes your voice high pitched and <font color=\"pink\" weight=\"bold\">feminine.</font> How does it work? We don't know",
   "item-spacesynth": "Space Synth",
 
   //Oboe
@@ -27,11 +28,11 @@
   "item-oboe-bismuth": "Bismuth Oboe",
   "item-oboe-blackbronze": "Black Bronze Oboe",
   "item-oboe-cupronickel": "Cupronickel Oboe",
-
+  "itemdesc-oboe-*": "Obotacular!",
   //Flute
   "item-flute-silver": "Silver Flute",
   "item-flute-gold": " Golden Flute",
-
+  "itemdesc-flute-*": "All ready for pied piping.",
 
   //Precussion
   "item-reedorgan": "Reed Organ",
@@ -100,11 +101,11 @@
   "item-schematic-instrumentssbc-brass": "Brass Instrument Schematic",
   "item-schematic-instrumentssbc-electric": "Jonas Instrument Schematic",
 
-  "itemdesc-schematic-instrumentssbc-woodwind": "This schematic appears to contain details for many reed based Instruments",
-  "itemdesc-schematic-instrumentssbc-string": "This schematic appears to contain details for many stringed Instruments",
-  "itemdesc-schematic-instrumentssbc-precussion": "This schematic appears to contain details for many rood  Instruments",
+  "itemdesc-schematic-instrumentssbc-woodwind": "This schematic appears to contain details for many reed based <font weight=\"bold\">Instruments.</font>",
+  "itemdesc-schematic-instrumentssbc-string": "This schematic appears to contain details for many stringed <font weight=\"bold\">Instruments.</font>",
+  "itemdesc-schematic-instrumentssbc-precussion": "This schematic appears to contain details for many precussion based <font weight=\"bold\">Instruments.</font>",
   "itemdesc-schematic-instrumentssbc-brass": "Time for a big brass band concert",
-  "itemdesc-schematic-instrumentssbc-electric": "This schematic from Jonas appears to contain details involving the creation of various complex instruments.",
+  "itemdesc-schematic-instrumentssbc-electric": "This schematic from Jonas appears to contain details involving the creation of various complex <font weight=\"bold\">Instruments</font> containing Jonas parts.",
   //Parts
   "item-instrumentreed-reed": "Woodwind Reed",
   "item-instrumentreed-brass": "Brass Reed",
@@ -124,6 +125,9 @@
   "item-precussionmallet-wood": "Wooden precusion mallet",
   "item-precussionmallet-brass": "Brass precusion mallet",
   "item-precussionmallet-steel": "Steel precusion mallet",
+
+  "item-precussionmallethead-brass": "Brass precusion mallet head",
+  "item-precussionmallethead-steel": "Steel precusion mallet head",
 
   "item-pianokeys": "Precussion Keys"
 }

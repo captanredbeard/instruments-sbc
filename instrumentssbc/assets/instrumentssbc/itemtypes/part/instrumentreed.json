@@ -15,7 +15,7 @@
   "texturesByType": {
     "*-reed": {},
     "*": {
-      "metal3": { "base": "game:block/metal/sheet-plain/{material}3" },
+      "metal3": { "base": "game:block/metal/sheet/{material}3" },
       "metal": { "base": "game:block/metal/ingot/{material}" }
     }
   },

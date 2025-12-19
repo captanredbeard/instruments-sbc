@@ -1,4 +1,5 @@
 {
+  "enabled": false,
   "code": "jewharp",
   "class": "instrumentssbc:jewHarpClass",
   "behaviors": [],
@@ -30,7 +31,7 @@
   "variantgroups": [
     {
       "code": "metal",
-      "states": ["brass", "steel", "silver" ]
+      "states": [ "brass", "steel", "silver" ]
     }
   ],
   "creativeinventory": {

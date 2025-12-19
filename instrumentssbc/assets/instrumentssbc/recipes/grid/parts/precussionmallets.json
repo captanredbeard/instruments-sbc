@@ -21,30 +21,6 @@
     }
   },
   {
-    "ingredientPattern": "PF,_S",
-    "width": 2,
-    "height": 2,
-    "ingredients": {
-      "P": {
-        "type": "item",
-        "code": "schematic-instrumentssbc-precussion"
-      },
-      "F": {
-        "type": "item",
-        "code": "game:flaxtwine",
-        "quantity": 2
-      },
-      "S": {
-        "type": "item",
-        "code": "game:stick"
-      }
-    },
-    "output": {
-      "type": "item",
-      "code": "precussionmallet-flax"
-    }
-  },
-  {
     "ingredientPattern": "FP,S_",
     "width": 2,
     "height": 2,
@@ -66,29 +42,6 @@
     "output": {
       "type": "item",
       "code": "precussionmallet-flax"
-    }
-  },
-  {
-    "ingredientPattern": "PF,_S",
-    "width": 2,
-    "height": 2,
-    "ingredients": {
-      "P": {
-        "type": "item",
-        "code": "schematic-instrumentssbc-precussion"
-      },
-      "F": {
-        "type": "item",
-        "code": "game:plank-*"
-      },
-      "S": {
-        "type": "item",
-        "code": "game:stick"
-      }
-    },
-    "output": {
-      "type": "item",
-      "code": "precussionmallet-wood"
     }
   },
   {

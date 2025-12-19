@@ -30,7 +30,8 @@
     },
     "S": {
       "type": "item",
-      "code": "instrumentstring-*"
+      "code": "instrumentstring-cupronickel",
+      "quantity": 16
     },
     "Y": {
       "type": "item",

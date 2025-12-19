@@ -15,7 +15,6 @@
 	},
 	"textures": {
 		"linen": "game:block/linen",
-		"metal": "game:block/metal/ingot/metal",
 		"tinbronze": "game:block/metal/ingot/tinbronze",
 		"stem": "game:block/plant/reeds/stem",
 		"oak": "game:block/wood/oak",
@@ -28,12 +27,6 @@
 			"to": [ 8.0, 8.0, 8.0 ],
 			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
 			"faces": {
-				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
 			},
 			"children": [
 				{

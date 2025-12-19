@@ -9,8 +9,6 @@
 	},
 	"textures": {
 		"plainoak": "game:block/wood/plainoak",
-		"metal":"game:block/metal/ingot/{metal}",
-        "metal3":"game:block/metal/riveted/{metal}3"
 	},
 	"elements": [
 		{

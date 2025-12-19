@@ -9,7 +9,9 @@
     },
     "S": {
       "type": "item",
-      "code": "instrumentstring-*"
+      "code": "instrumentstring-*",
+      "quantity": 4,
+      "allowedVariants": [ "flax", "brass" ]
     },
     "H": {
       "type": "item",

@@ -25,7 +25,7 @@
     "H": {
       "type": "item",
       "code": "game:metalplate-*",
-      "allowedVariants": [ "iron", "meteoriciron","steel" ]
+      "allowedVariants": [ "iron", "meteoriciron", "steel" ]
     },
     "P": {
       "type": "item",

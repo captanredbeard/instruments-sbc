@@ -18,8 +18,7 @@
 		"transparent": "game:block/transparent",
 		"bituminous": "game:block/coal/bituminous",
 		"ebony": "game:block/wood/debarked/ebony",
-		"wood": "game:block/wood/oak",
-		"metal": ""
+		"wood": "game:block/wood/oak"
 	},
 	"elements": [
 		{

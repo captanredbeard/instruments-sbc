@@ -17,7 +17,8 @@
       "C": {
         "type": "item",
         "code": "harmonicacase-*",
-        "name": "metal"
+        "name": "metal",
+        "skipVariants": [ "silver", "gold"]
       }
     },
     "output": {

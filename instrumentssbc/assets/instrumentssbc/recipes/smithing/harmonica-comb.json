@@ -18,11 +18,12 @@
 		"name": "Harmonoica Case",
 		"output": {
 			"type": "item",
-			"code": "harmonicacase-{metal}"
+			"code": "harmonicacase-{metal}",
+			"quantity": 2
 		}
 	},
 	{
-		"enabled" : true,
+		"enabled" : false,
 		"ingredient": {
 			"type": "item",
 			"code": "game:ingot-*",

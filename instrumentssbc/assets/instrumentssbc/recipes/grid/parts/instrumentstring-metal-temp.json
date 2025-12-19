@@ -1,7 +1,7 @@
 {
   "ingredientPattern": "DI",
   "width": 2,
-  "height": 2,
+  "height": 1,
   "shapeless": true,
   "ingredients": {
     "D": {
@@ -10,9 +10,9 @@
     },
     "I": {
       "type": "item",
-      "code": "ingot-*",
+      "code": "game:ingot-*",
       "name": "metal",
-      "allowedVariants": [ "brass", "cupronickel", "steel", "flax" /*, "silver", "gold"*/ ]
+      "allowedVariants": [ "brass", "steel", "flax", "cupronickel" /*, "silver", "gold"*/ ]
     }
   },
   "output": {

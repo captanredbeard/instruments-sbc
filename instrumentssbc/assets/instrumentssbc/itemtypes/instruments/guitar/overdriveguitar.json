@@ -42,6 +42,36 @@
     "items": [ "*" ],
     "instruments-sbc": [ "*" ]
   },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.1,
+      "y": -0.6,
+      "z": -1.15
+    },
+    "rotation": {
+      "x": -93,
+      "y": -4,
+      "z": -2
+    },
+    "scale": 0.6
+  },
+  "guiTransform": {
+    "translation": {
+      "x": -15,
+      "y": -12.86,
+      "z": 30
+    },
+    "rotation": {
+      "x": -40,
+      "y": -139,
+      "z": -159
+    },
+    "scaleXyz": {
+      "x": -1.26,
+      "y": 1.26,
+      "z": 1.26
+    }
+  },
   "storageFlags": 2049,
   "heldTpUseAnimation": "holdbothhandslarge"
 }

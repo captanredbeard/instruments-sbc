@@ -1,6 +1,12 @@
 {
   "code": "oboe",
   "class": "instrumentssbc:oboeClass",
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [ "silver", "gold", "meteoriciron", "bismuth", "blackbronze", "brass", "cupronickel" ]
+    }
+  ],
   "behaviors": [
     {
       "name": "GroundStorable",
@@ -29,7 +35,6 @@
   ],
   "shape": { "base": "item/instrument/woodwind/oboe" },
   "textures": {
-
     "metal": { "base": "game:block/metal/ingot/{metal}" }
   },
   "attributes": {
@@ -55,12 +60,6 @@
       }
     }
   },
-  "variantgroups": [
-    {
-      "code": "metal",
-      "states": [ "silver", "gold", "meteoriciron", "bismuth", "blackbronze", "brass", "cupronickel" ]
-    }
-  ],
   "creativeinventory": {
     "general": [ "*" ],
     "items": [ "*" ],

@@ -26,7 +26,42 @@
         "type": "item",
         "code": "game:metalnailsandstrips-*",
         "name": "metal",
-        "allowedVariants": [ "silver", "gold", "meteoriciron", "bismuth", "blackbronze", "brass", "cupronickel" ]
+        "allowedVariants": [ /*"silver", "gold",  "cupronickel",*/ "meteoriciron", "bismuth", "blackbronze", "brass" ]
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "oboe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "BR,KP,IP",
+    "width": 2,
+    "height": 3,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "schematic-instrumentssbc-woodwind"
+      },
+      "R": {
+        "type": "item",
+        "code": "instrumentreed-reed"
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true,
+        "toolDurabilityCost": 8
+      },
+      "P": {
+        "type": "item",
+        "code": "game:plank-ebony"
+      },
+      "I": {
+        "type": "item",
+        "code": "game:metalplate-*",
+        "name": "metal",
+        "allowedVariants": [ /*"silver", "gold",  "cupronickel",*/ "meteoriciron", "bismuth", "blackbronze", "brass" ]
       }
     },
     "output": {

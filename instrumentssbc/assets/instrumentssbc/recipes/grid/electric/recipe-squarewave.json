@@ -30,7 +30,8 @@
     },
     "S": {
       "type": "item",
-      "code": "instrumentstring-*"
+      "code": "instrumentreed-steel",
+      "quantity": 32
     },
     "Y": {
       "type": "item",
