@@ -1,5 +1,5 @@
 {
-	"code": "schematic-instrumentssbc",
+	"code": "schematic",
 	"maxstacksize": 1,
 	"behaviors": [
 		{

@@ -6,7 +6,7 @@
   "ingredients": {
     "B": {
       "type": "item",
-      "code": "schematic-instrumentssbc-electric"
+      "code": "schematic-electric"
     },
     "S": {
       "type": "item",

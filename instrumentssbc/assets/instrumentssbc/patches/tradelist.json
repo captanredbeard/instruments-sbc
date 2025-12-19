@@ -1,0 +1,102 @@
+[
+  {
+    "file": "game:config/tradelists/trader-artisan.json",
+    "op": "addmerge",
+    "path": "/selling/list",
+    "value": [
+      {
+        "code": "instrumentssbc:schematic-guitar",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 0.7,
+          "var": 0.2
+        },
+        "price": {
+          "avg": 120,
+          "var": 20
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:config/tradelists/trader-artisan.json",
+    "op": "addmerge",
+    "path": "/selling/list",
+    "value": [
+      {
+        "code": "instrumentssbc:schematic-woodwind",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 0.7,
+          "var": 0.2
+        },
+        "price": {
+          "avg": 120,
+          "var": 20
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:config/tradelists/trader-artisan.json",
+    "op": "addmerge",
+    "path": "/selling/list",
+    "value": [
+      {
+        "code": "instrumentssbc:schematic-precussion",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 0.7,
+          "var": 0.2
+        },
+        "price": {
+          "avg": 120,
+          "var": 20
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:config/tradelists/trader-artisan.json",
+    "op": "addmerge",
+    "path": "/selling/list",
+    "value": [
+      {
+        "code": "instrumentssbc:schematic-string",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 0.7,
+          "var": 0.2
+        },
+        "price": {
+          "avg": 120,
+          "var": 20
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:config/tradelists/trader-artisan.json",
+    "op": "addmerge",
+    "path": "/selling/list",
+    "value": [
+      {
+        "code": "instrumentssbc:schematic-electric",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 0.7,
+          "var": 0.2
+        },
+        "price": {
+          "avg": 120,
+          "var": 20
+        }
+      }
+    ]
+  }
+]

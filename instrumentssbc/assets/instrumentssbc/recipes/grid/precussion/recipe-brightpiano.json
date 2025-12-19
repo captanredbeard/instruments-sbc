@@ -5,7 +5,7 @@
   "ingredients": {
     "B": {
       "type": "item",
-      "code": "schematic-instrumentssbc-precussion"
+      "code": "schematic-precussion"
     },
     "T": {
       "type": "item",

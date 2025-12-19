@@ -27,7 +27,7 @@
     "ingredients": {
       "P": {
         "type": "item",
-        "code": "schematic-instrumentssbc-precussion"
+        "code": "schematic-precussion"
       },
       "F": {
         "type": "item",
@@ -51,7 +51,7 @@
     "ingredients": {
       "P": {
         "type": "item",
-        "code": "schematic-instrumentssbc-precussion"
+        "code": "schematic-precussion"
       },
       "F": {
         "type": "item",

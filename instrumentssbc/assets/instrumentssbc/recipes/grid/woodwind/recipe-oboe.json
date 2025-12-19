@@ -6,7 +6,7 @@
     "ingredients": {
       "B": {
         "type": "item",
-        "code": "schematic-instrumentssbc-woodwind"
+        "code": "schematic-woodwind"
       },
       "R": {
         "type": "item",
@@ -41,7 +41,7 @@
     "ingredients": {
       "B": {
         "type": "item",
-        "code": "schematic-instrumentssbc-woodwind"
+        "code": "schematic-woodwind"
       },
       "R": {
         "type": "item",

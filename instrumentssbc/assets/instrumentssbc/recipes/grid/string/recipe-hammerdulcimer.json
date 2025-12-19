@@ -5,7 +5,7 @@
   "ingredients": {
     "B": {
       "type": "item",
-      "code": "schematic-instrumentssbc-string"
+      "code": "schematic-string"
     },
     "S": {
       "type": "item",

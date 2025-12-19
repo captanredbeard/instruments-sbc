@@ -5,7 +5,7 @@
   "ingredients": {
     "P": {
       "type": "item",
-      "code": "schematic-instrumentssbc-woodwind"
+      "code": "schematic-woodwind"
     },
     "R": {
       "type": "item",

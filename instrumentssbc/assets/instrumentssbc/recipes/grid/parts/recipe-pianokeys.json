@@ -5,7 +5,7 @@
   "ingredients": {
     "P": {
       "type": "item",
-      "code": "schematic-instrumentssbc-*",
+      "code": "schematic-*",
       "allowedVariants": ["precussion","electric","woodwind"]
     },
     "B": {
