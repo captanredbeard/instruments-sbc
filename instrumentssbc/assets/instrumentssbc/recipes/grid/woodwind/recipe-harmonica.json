@@ -18,7 +18,7 @@
         "type": "item",
         "code": "harmonicacase-*",
         "name": "metal",
-        "skipVariants": [ "silver", "gold"]
+        "skipVariants": [ /*"silver", "gold"*/]
       }
     },
     "output": {

@@ -23,7 +23,7 @@
 		}
 	},
 	{
-		"enabled" : false,
+		"enabled" : true,
 		"ingredient": {
 			"type": "item",
 			"code": "game:ingot-*",
