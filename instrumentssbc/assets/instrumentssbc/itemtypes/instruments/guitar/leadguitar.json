@@ -34,6 +34,19 @@
       "rotation": { "z": 180 },
       "translation": { "y": -0.4 },
       "scale": 1.25
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.124,
+        "z": -0.048
+      },
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": 74
+      },
+      "scale": 0.6
     }
   },
   "tpHandTransform": {

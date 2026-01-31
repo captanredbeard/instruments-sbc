@@ -1,7 +1,8 @@
 {
- "ingredientPattern": "BYJ,KSK,EPO",
- "width":3,
- "height":3,
+  "enabled": false,
+  "ingredientPattern": "BYJ,KSK,EPO",
+  "width": 3,
+  "height": 3,
   "ingredients": {
     "B": {
       "type": "item",
@@ -40,8 +41,8 @@
       "toolDurabilityCost": 12
     }
   },
- "output": {
- "type": "item",
- "code": "spacesynth"
- }
+  "output": {
+    "type": "item",
+    "code": "spacesynth"
+  }
 }

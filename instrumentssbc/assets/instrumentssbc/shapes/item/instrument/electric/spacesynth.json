@@ -10447,8 +10447,7 @@
 												"east": {"texture": "#cupronickel1", "uv": [6, 10.5, 7.5, 11.5], "autoUv": false, "snapUv": false},
 												"south": {"texture": "#cupronickel1", "uv": [3.5, 3.5, 4.5, 4.5], "autoUv": false, "snapUv": false},
 												"west": {"texture": "#cupronickel1", "uv": [2, 6.5, 3.5, 7.5], "autoUv": false, "snapUv": false},
-												"up": {"texture": "#cupronickel1", "uv": [9.5, 3, 10.5, 4.5], "autoUv": false, "snapUv": false},
-												"down": {"texture": "#missing_texture", "uv": [0, 0, 1, 1.5], "autoUv": false, "snapUv": false}
+												"up": {"texture": "#cupronickel1", "uv": [9.5, 3, 10.5, 4.5], "autoUv": false, "snapUv": false}
 											}
 										}
 									]
@@ -11136,8 +11135,7 @@
 												"east": {"texture": "#cupronickel1", "uv": [6, 10.5, 7.5, 11.5], "autoUv": false, "snapUv": false},
 												"south": {"texture": "#cupronickel1", "uv": [3.5, 3.5, 4.5, 4.5], "autoUv": false, "snapUv": false},
 												"west": {"texture": "#cupronickel1", "uv": [2, 6.5, 3.5, 7.5], "autoUv": false, "snapUv": false},
-												"up": {"texture": "#cupronickel1", "uv": [9.5, 3, 10.5, 4.5], "autoUv": false, "snapUv": false},
-												"down": {"texture": "#missing_texture", "uv": [0, 0, 1, 1.5], "autoUv": false, "snapUv": false}
+												"up": {"texture": "#cupronickel1", "uv": [9.5, 3, 10.5, 4.5], "autoUv": false, "snapUv": false}
 											}
 										}
 									]
@@ -11825,8 +11823,7 @@
 												"east": {"texture": "#cupronickel1", "uv": [6, 10.5, 7.5, 11.5], "autoUv": false, "snapUv": false},
 												"south": {"texture": "#cupronickel1", "uv": [3.5, 3.5, 4.5, 4.5], "autoUv": false, "snapUv": false},
 												"west": {"texture": "#cupronickel1", "uv": [2, 6.5, 3.5, 7.5], "autoUv": false, "snapUv": false},
-												"up": {"texture": "#cupronickel1", "uv": [9.5, 3, 10.5, 4.5], "autoUv": false, "snapUv": false},
-												"down": {"texture": "#missing_texture", "uv": [0, 0, 1, 1.5], "autoUv": false, "snapUv": false}
+												"up": {"texture": "#cupronickel1", "uv": [9.5, 3, 10.5, 4.5], "autoUv": false, "snapUv": false}
 											}
 										}
 									]

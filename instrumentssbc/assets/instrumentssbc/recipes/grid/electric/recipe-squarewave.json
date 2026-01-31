@@ -1,4 +1,5 @@
 {
+  "enabled": false,
   "ingredientPattern": "BYJ,KSK,EPO",
   "width": 3,
   "height": 3,
