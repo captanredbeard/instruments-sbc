@@ -1,12 +1,12 @@
 {
-  "enabled": "false",
+  "enabled": false,
   "ingredientPattern": "BSP,_P_,___",
   "width": 3,
   "height": 3,
   "ingredients": {
     "B": {
       "type": "item",
-      "code": "schematic-instrumentssbc-electric"
+      "code": "schematic-electric"
     },
     "S": {
       "type": "item",

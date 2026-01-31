@@ -6,7 +6,7 @@
   "ingredients": {
     "B": {
       "type": "item",
-      "code": "schematic-instrumentssbc-woodwind"
+      "code": "schematic-woodwind"
     },
     "O": {
       "type": "item",

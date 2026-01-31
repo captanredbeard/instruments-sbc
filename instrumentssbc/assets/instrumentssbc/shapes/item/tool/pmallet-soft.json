@@ -9,8 +9,7 @@
 		"white": [16, 16],
 		"acacia": [16, 16],
 		"wood": [16, 16],
-		"metal": [16, 8],
-		"wood": [16, 8]
+		"metal": [16, 8]
 	},
 	"textures": {
 		"white": "game:block/cloth/basic/white",

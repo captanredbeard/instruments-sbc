@@ -1,11 +1,12 @@
 {
+  "enabled": false,
   "ingredientPattern": "JKP,_PB,HS_",
   "width": 3,
   "height": 3,
   "ingredients": {
     "J": {
       "type": "item",
-      "code": "schematic-instrumentssbc-guitar"
+      "code": "schematic-guitar"
     },
     "S": {
       "type": "item",
@@ -25,7 +26,7 @@
     "H": {
       "type": "item",
       "code": "game:metalplate-*",
-      "allowedVariants": [ "iron", "meteoriciron","steel" ]
+      "allowedVariants": [ "iron", "meteoriciron", "steel" ]
     },
     "P": {
       "type": "item",

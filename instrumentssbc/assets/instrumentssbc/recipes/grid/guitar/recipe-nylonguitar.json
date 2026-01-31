@@ -1,11 +1,12 @@
 {
+
   "ingredientPattern": "JKP,_PB,HS_",
   "width": 3,
   "height": 3,
   "ingredients": {
     "J": {
       "type": "item",
-      "code": "schematic-instrumentssbc-guitar"
+      "code": "schematic-guitar"
     },
     "S": {
       "type": "item",

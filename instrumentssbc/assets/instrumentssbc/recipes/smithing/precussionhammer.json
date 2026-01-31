@@ -1,15 +1,25 @@
-
 {
-	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["brass", "steel"] },
-	pattern: [[
-		"#####",
-		"#####",
-		"#####"
-	],[
-		"_####",
-		"_####",
-		"_####"
-	]],
+	ingredient: {
+		type: "item",
+		code: "game:ingot-*",
+		name: "metal",
+		allowedVariants: [ "brass", "steel" ]
+	},
+	pattern: [
+		[
+			"#####",
+			"#####",
+			"#####"
+		],
+		[
+			"_####",
+			"_####",
+			"_####"
+		]
+	],
 	name: "Precussion Mallet",
-	output: { type: "item", code: "precussionmallethead-{metal}"  }
+	output: {
+		type: "item",
+		code: "precussionmallethead-{metal}"
+	}
 }

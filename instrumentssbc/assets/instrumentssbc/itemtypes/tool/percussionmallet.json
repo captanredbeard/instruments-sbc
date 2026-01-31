@@ -16,10 +16,13 @@
   ],
   "shape": { "base": "item/part/precussionmallet" },
   "shapeByType": {
-    "@(precussionmallet-flax|precussionmallet-wood)": { "base": "item/tool/pmallet-soft" },
+    "*-flax": { "base": "item/tool/pmallet-soft" },
+    "*-wood": { "base": "item/tool/pmallet-soft" },
     "*": { "base": "item/tool/pmallet-metal" }
   },
   "texturesByType": {
+    "*-flax": {},
+    "*-wood": {},
     "*": { "metal": { "base": "game:block/metal/ingot/{metal}" } }
   },
   "attributes": {

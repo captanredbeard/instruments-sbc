@@ -1,4 +1,5 @@
 {
+  "enabled": true,
   "code": "bagpipes",
   "class": "instrumentssbc:bagPipesClass",
   "behaviors": [
@@ -17,13 +18,18 @@
       }
     }
   ],
+/*
   "shape": { "base": "item/instrument/woodwind/bagpipe" },
+  */
   "attributes": {
     "rackable": true,
     "toolrackTransform": {
       "rotation": { "z": 180 },
       "translation": { "y": -0.4 },
       "scale": 1.25
+    },
+    "handbook": {
+      "exclude": true
     }
   },
   "creativeinventory": {

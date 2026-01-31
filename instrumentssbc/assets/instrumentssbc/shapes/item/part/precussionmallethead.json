@@ -1,0 +1,62 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 8,
+	"textureSizes": {
+		"metal": [16, 8]
+	},
+	"textures": {
+		"metal": "game:item/tool/material/iron"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [12.4, 7.05, 6],
+			"to": [14, 8.7, 9.1],
+			"rotationOrigin": [0, 0, 0],
+			"faces": {
+				"north": {"texture": "#metal", "uv": [1, 5, 3, 7], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#metal", "uv": [2, 1, 6, 3], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#metal", "uv": [2, 3, 4, 5], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#metal", "uv": [1, 5, 5, 7], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#metal", "uv": [5, 2, 7, 6], "autoUv": false, "snapUv": false},
+				"down": {"texture": "#metal", "uv": [1, 3, 3, 7], "autoUv": false, "snapUv": false}
+			}
+		},
+		{
+			"name": "Cube1",
+			"from": [12.4, 7.05, 9.1],
+			"to": [13.25, 8.7, 11.175],
+			"rotationOrigin": [0, 0, 2.7],
+			"faces": {
+				"north": {"texture": "#metal", "uv": [1, 5, 3, 7], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#metal", "uv": [2, 1, 6, 3], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#metal", "uv": [2, 3, 4, 5], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#metal", "uv": [1, 5, 5, 7], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#metal", "uv": [5, 2, 7, 6], "autoUv": false, "snapUv": false},
+				"down": {"texture": "#metal", "uv": [1, 3, 3, 7], "autoUv": false, "snapUv": false}
+			},
+			"renderPass": 0
+		},
+		{
+			"name": "Cube1",
+			"from": [13.275, 7.051, 9.1],
+			"to": [14, 8.699, 11.3],
+			"rotationOrigin": [14, 8.7, 9.1],
+			"faces": {
+				"north": {"texture": "#metal", "uv": [1, 5, 3, 7], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#metal", "uv": [2, 1, 6, 3], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#metal", "uv": [2, 3, 4, 5], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#metal", "uv": [1, 5, 5, 7], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#metal", "uv": [5, 2, 7, 6], "autoUv": false, "snapUv": false},
+				"down": {"texture": "#metal", "uv": [1, 3, 3, 7], "autoUv": false, "snapUv": false}
+			},
+			"rotationY": -20,
+			"renderPass": 0
+		}
+	],
+	"animations": []
+}

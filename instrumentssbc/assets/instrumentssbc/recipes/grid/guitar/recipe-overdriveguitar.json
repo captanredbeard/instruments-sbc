@@ -1,11 +1,12 @@
 {
+  "enabled": true,
   "ingredientPattern": "JKP,CPB,HSO",
   "width": 3,
   "height": 3,
   "ingredients": {
     "J": {
       "type": "item",
-      "code": "schematic-instrumentssbc-guitar"
+      "code": "schematic-guitar"
     },
     "S": {
       "type": "item",
@@ -41,6 +42,6 @@
   },
   "output": {
     "type": "item",
-    "code": "guitar-lead"
+    "code": "guitar-overdrive"
   }
 }

@@ -1,11 +1,12 @@
 {
- "ingredientPattern": "BYJ,KSK,EPO",
- "width":3,
- "height":3,
+  "enabled": false,
+  "ingredientPattern": "BYJ,KSK,EPO",
+  "width": 3,
+  "height": 3,
   "ingredients": {
     "B": {
       "type": "item",
-      "code": "schematic-instrumentssbc-electric"
+      "code": "schematic-electric"
     },
     "K": {
       "type": "item",
@@ -30,7 +31,8 @@
     },
     "S": {
       "type": "item",
-      "code": "instrumentstring-*"
+      "code": "instrumentstring-cupronickel",
+      "quantity": 16
     },
     "Y": {
       "type": "item",
@@ -39,8 +41,8 @@
       "toolDurabilityCost": 12
     }
   },
- "output": {
- "type": "item",
- "code": "spacesynth"
- }
+  "output": {
+    "type": "item",
+    "code": "spacesynth"
+  }
 }

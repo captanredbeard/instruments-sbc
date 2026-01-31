@@ -5,11 +5,13 @@
   "ingredients": {
     "P": {
       "type": "item",
-      "code": "schematic-instrumentssbc-string"
+      "code": "schematic-string"
     },
     "S": {
       "type": "item",
-      "code": "instrumentstring-*"
+      "code": "instrumentstring-*",
+      "quantity": 4,
+      "allowedVariants": [ "flax", "brass" ]
     },
     "B": {
       "type": "item",

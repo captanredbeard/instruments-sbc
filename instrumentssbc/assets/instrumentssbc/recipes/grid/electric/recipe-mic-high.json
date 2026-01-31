@@ -5,7 +5,7 @@
   "ingredients": {
     "B": {
       "type": "item",
-      "code": "schematic-instrumentssbc-*"
+      "code": "schematic-electric"
     },
     "L": {
       "type": "item",
@@ -13,7 +13,7 @@
     },
     "J": {
       "type": "item",
-      "code": "game:drygrass"
+      "code": "game:metalplate-cupronickel"
     },
     "K": {
       "type": "item",
