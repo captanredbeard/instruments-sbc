@@ -26,7 +26,7 @@
         "type": "item",
         "code": "game:metalnailsandstrips-*",
         "name": "metal",
-        "allowedVariants": [ /*"silver", "gold",  "cupronickel",*/ "meteoriciron", "bismuth", "blackbronze", "brass" ]
+        "allowedVariants": [ "silver", "gold",  "cupronickel", "meteoriciron", "bismuth", "blackbronze", "brass" ]
       }
     },
     "output": {
@@ -61,7 +61,7 @@
         "type": "item",
         "code": "game:metalplate-*",
         "name": "metal",
-        "allowedVariants": [ /*"silver", "gold",  "cupronickel",*/ "meteoriciron", "bismuth", "blackbronze", "brass" ]
+        "allowedVariants": [ "silver", "gold",  "cupronickel", "meteoriciron", "bismuth", "blackbronze", "brass" ]
       }
     },
     "output": {
