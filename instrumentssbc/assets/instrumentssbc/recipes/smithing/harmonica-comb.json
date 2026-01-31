@@ -28,7 +28,7 @@
 			"type": "item",
 			"code": "game:ingot-*",
 			"name": "metal",
-			"allowedVariants": [ "silver", "gold" ]
+			"allowedVariants": [ /*"silver", "gold"*/ ]
 		},
 		"pattern": [
 			[

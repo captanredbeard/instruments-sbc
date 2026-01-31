@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "ingredientPattern": "JKP,CPB,HSO",
   "width": 3,
   "height": 3,
