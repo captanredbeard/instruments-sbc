@@ -11,13 +11,7 @@
       "type": "item",
       "code": "game:knife-*",
       "isTool": true,
-      "toolDurabilityCost": 24
-    },
-    "J": {
-      "type": "item",
-      "code": "game:knife-*",
-      "isTool": true,
-      "toolDurabilityCost": 32
+      "toolDurabilityCost": 16
     },
     "K": {
       "type": "item",
@@ -26,8 +20,8 @@
     },
     "P": {
       "type": "item",
-      "code": "game:planks-*",
-      "quantity": 1
+      "code": "game:plank-*",
+      "quantity": 4
     },
     "S": {
       "type": "item",
