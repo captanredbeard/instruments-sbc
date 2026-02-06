@@ -90,7 +90,7 @@ namespace instrumentssbc.src.ItemTypes
         public override void OnLoaded(ICoreAPI api)
         {
             base.OnLoaded(api);
-            instrument = "hammerdulcimer";
+            instrument = "dulcimer";
             animation = "holdbothhands";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
         }

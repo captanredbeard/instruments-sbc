@@ -8,7 +8,7 @@
     "CookingWithCinderBlocks"
   ],
   "description": "Fills out the instrument set of the Instruments mod and adds a special new instrument backpack",
-  "version": "1.0.1",
+  "version": "1.0.2-dev.0",
   "dependencies": {
     "game": "1.21.0",
     "vsinstrumentsbase": "2.0.7"
