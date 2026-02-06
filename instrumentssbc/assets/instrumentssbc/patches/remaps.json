@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/instrumentssbc:v1.0.1",
+    "value": [
+      "/iir remapq instrumentssbc:dulcimer instrumentssbc:hammerdulcimer force"
+    ],
+    "file": "game:config/remaps.json"
+  }
+]
